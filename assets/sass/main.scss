@@ -72,9 +72,9 @@ html {
   //poppins font is closer
 }
 
-body {
+html, body {
        height: 100%;
        margin: 0 auto !important;
        float: none !important;
-       background: #f3f3f3;
+       background: #f3f3f3 !important;
   }
