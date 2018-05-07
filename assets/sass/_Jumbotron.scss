@@ -1,0 +1,281 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767px) {
+
+     #location.releaseDate {
+          margin-top: 80px;
+     }
+
+     .jumbotron .container-fluid.hero {
+          top: 71%;
+          transform: translateY(-50%);
+     }
+
+     .jumbotron {
+          height: 650px;
+          min-width: 490px;
+
+          .container-fluid.hero #location.releaseDate,
+          .container-fluid.hero #date.releaseDate {
+               font-size: 1rem;
+          }
+        }
+
+        .jumbotron .display-4 {
+             font-size: 3.4rem;
+        }
+
+        .container.allcontent .searchbar .searchlabels ul li {
+             font-size: .9rem;
+        }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+     .jumbotron .container-fluid.hero {
+          top: 63%;
+          left: 0%;
+          transform: translateY(-50%);
+     }
+
+     .jumbotron {
+          height: 700px;
+
+           .display-4 {
+               font-weight: 800;
+               font-size: 4rem;
+          }
+
+          #location.releaseDate {
+               margin-top: 75px;
+          }
+
+          div.container-fluid.hero div.row{
+               margin-left: 1%;
+          }
+
+
+
+          &.container-fluid.hero #location.releaseDate {
+               font-size: 14px;
+               margin-top: 22px;
+          }
+
+          &.container-fluid.hero #date.releaseDate {
+               font-size: 17px;
+          }
+
+          &.allcontent .searchbar .searchlabels ul li {
+               font-size: 14px;
+          }
+     }
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+     .jumbotron {
+          height: 900px;
+     }
+
+     .jumbotron .container-fluid.hero {
+          top: 70%;
+          left: 5.5%;
+          transform: translateY(-50%);
+     }
+
+     #location.releaseDate {
+          margin-top: 175px;
+     }
+
+     div.container-fluid.hero div.row{
+          margin-left: 1%;
+     }
+
+ }
+
+
+ // Extra large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px){
+
+ }
+
+
+
+.jumbotron {
+     background: $yellowGold;
+     background-color: #000;
+     background-image: url(https://raw.githubusercontent.com/AshleyCanty/imdb-layout/master/public/img/martian.jpg);
+     background-attachment: fixed;
+     background-repeat: repeat-x;
+     background-position: 50% 0px;
+     background-size: cover;
+     margin-bottom: 0 !important;
+     border-radius: 0 !important;
+     position: relative;
+     padding: 0 !important;
+
+     .hero-2 {
+          background: red;
+           width: 100%;
+           height: 400px;
+           position: absolute;
+           bottom: 0;
+           margin: 0 auto;
+           left: 50%;
+           transform: translateX(-50%);
+           display: block;
+           background-color: transparent;
+           background-image: -webkit-linear-gradient(90deg, #000, rgba(0, 0, 0, .67) 53%, transparent);
+           background-image: linear-gradient(0deg, #000, rgba(0, 0, 0, .67) 53%, transparent);
+     }
+
+    .container-fluid {
+         &.hero {
+               position: absolute;
+               z-index: 200;
+
+              #location.releaseDate {
+                   color: white !important;
+                   font-weight: 300;
+                   letter-spacing: 4px;
+              }
+              #date.releaseDate  {
+                   color: $yellowMain;
+                   font-weight: 300;
+                   letter-spacing: 4px;
+              }
+         }
+    }
+
+    .circle {
+         height: 7px;
+         width: 7px;
+         border-radius: 50%;
+         background: rgba(255,255,255,.4);
+         margin: 10px 0;
+    }
+
+    .circle-border {
+         background: clear;
+         border: 2px solid rgba(255,255,255,.4);
+         height: 30px;
+         width: 30px;
+         border-radius: 50%;
+         position: relative;
+         margin: 12px 0;
+         transition: all .3s ease-in-out;
+
+         &:hover {
+            border: 2px solid rgba(255,255,255,.8);
+            height: 32px;
+            width: 32px;
+
+              .ion-chevron-up, .ion-chevron-down {
+                   color: rgba(255,255,255,.8);
+                   font-size: 19px;
+              }
+        }
+         .ion-chevron-up, .ion-chevron-down {
+              font-size: 19px;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               color: rgba(255,255,255,.4);
+               transition: all .4s ease-in-out;
+
+         }
+
+         .ion-chevron-down {
+              top: 57%;
+         }
+
+    }
+
+    .display-4 {
+         color: white;
+         letter-spacing: 9px;
+         text-transform: uppercase;
+    }
+
+    .label {
+         display: inline-block;
+         margin-right: 25px;
+         text-transform: uppercase;
+         font-size: .8rem;
+         color: white;
+         font-weight: 200;
+    }
+}
+
+
+
+.col-md-2 {
+     position: relative;
+
+     .arrows {
+          padding-top: 60px;
+          position: absolute;
+          right: 50px;
+     }
+     .dots {
+          padding-top: 60px;
+          position: absolute;
+          left: 50px;
+     }
+}
+
+.col-md-8 {
+
+     a {
+
+          .btn-wrap{
+               margin-top: 50px;
+               background: $yellowMain;
+               width:200px;
+               height:53px;
+               border-radius:30px;
+
+               &:hover {
+                    cursor: pointer;
+               }
+
+               button {
+                    display:table;
+                    background: $yellowMain;
+                    border-radius:30px;
+                    text-decoration:none;
+                    color:black;
+                    font-weight:500;
+                    height:100%;
+                    width:100%;
+                    border:none;
+                    font-size:16px;
+                    line-height:4px;
+                    padding-left: 30px;
+                    &:focus {
+                         outline: none;
+                    }
+
+                    span {
+                         display: inline-block;
+                         margin-left: -25px;
+                         vertical-align:middle;
+
+
+                    }
+                    .ion-android-arrow-dropright-circle {
+                         display: inline-block;
+                         font-size: 32px;
+                         color: black;
+                         vertical-align:middle;
+                         margin-left: 20px;
+
+                    }
+               }
+
+          }
+     }
+}

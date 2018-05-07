@@ -1,68 +1,80 @@
 @import url( 'https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:100,300,400,500');
+@import url( 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+@import url( 'https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+
 @import "reset";
+@import "variables";
+@import "Header";
+@import "TopImg";
+@import "Content";
+@import "Footer";
+@import "Jumbotron";
+
+
 $textFont: 'Roboto Condensed', sans-serif;
 $headerFont: 'Roboto', sans-serif;
-@font-face {
-  font-family: road_rage;
-  src: url('/fonts/Road_Rage.otf');
+// @font-face {
+//   font-family: road_rage;
+//   src: url('/fonts/Road_Rage.otf');
+// }
+
+textarea:focus, input:focus{
+    outline: none !important;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.form-control {
+
+  &:focus {
+     box-shadow: none;
+     /* your new styles */
+  }
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(64, 64, 64);
+}
+.btco-menu li > a {
+    padding: 10px 15px;
+    color:red;
+
+}
+
+.btco-menu .active a:focus,
+.btco-menu li a:focus ,
+.navbar > .show > a:focus{
+    background: transparent;
+    outline: 0;
+}
+
+
+.dropdown-menu .show > .dropdown-toggle::after{
+    transform: rotate(-90deg);
+}
+
+
+
+* {
+  box-sizing: border-box;
+  // font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif !important;
+  //poppins font is closer
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  // background: purple;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3636c1+0,161658+100 */
-  background: #3636c1;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #3636c1 0%, #161658 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #3636c1 0%,#161658 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #3636c1 0%,#161658 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
-}
-
-#app {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.app {
-  max-width: 700px;
-  text-align: right;
-}
-
-h1 {
-  color: white;
-  font-weight: 100;
-  // max-width: 50%;
-  font-size: 4rem;
-  display: flex;
-}
-
-a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  text-align: right;
-  // float: right;
-  color: white;
-  font-weight: 300;
-  // max-width: 50%;
-  font-size: 1rem;
-  padding-left: 20px;
-  padding-bottom: 20px;
-
-  &:hover {
-    color: lightblue;
+       height: 100%;
+       margin: 0 auto !important;
+       float: none !important;
+       background: white;
   }
-}
-
-.stars {
-  display: block;
-  width: 100%;
-}

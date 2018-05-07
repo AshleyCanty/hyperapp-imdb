@@ -48,6 +48,24 @@ exports.default = App;
 
 var _hyperapp = __webpack_require__(0);
 
+var _Header = __webpack_require__(15);
+
+var _Header2 = _interopRequireDefault(_Header);
+
+var _TopImg = __webpack_require__(16);
+
+var _TopImg2 = _interopRequireDefault(_TopImg);
+
+var _Content = __webpack_require__(13);
+
+var _Content2 = _interopRequireDefault(_Content);
+
+var _Footer = __webpack_require__(14);
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function App(_ref) {
   var state = _ref.state,
       actions = _ref.actions;
@@ -55,29 +73,9 @@ function App(_ref) {
   return (0, _hyperapp.h)(
     'div',
     { 'class': 'app' },
-    (0, _hyperapp.h)(
-      'div',
-      null,
-      (0, _hyperapp.h)(
-        'h1',
-        null,
-        'Hyperapp Starter Kit'
-      ),
-      (0, _hyperapp.h)(
-        'a',
-        { href: 'http://www.codingphase.com/', target: 'new' },
-        ' by CodingPhase.com'
-      )
-    ),
-    (0, _hyperapp.h)(
-      'div',
-      { className: 'stars' },
-      (0, _hyperapp.h)(
-        'a',
-        { className: 'github-button', href: 'https://github.com/codingphasedotcom/hyperapp-starterkit', 'data-size': 'large', 'data-show-count': 'true', 'aria-label': 'Star codingphasedotcom/hyperapp-starterkit on GitHub' },
-        'Star'
-      )
-    )
+    (0, _hyperapp.h)(_Header2.default, { state: state, actions: actions }),
+    (0, _hyperapp.h)(_Content2.default, { state: state, actions: actions }),
+    (0, _hyperapp.h)(_Footer2.default, { state: state, actions: actions })
   );
 }
 // <Header state={state} actions={actions}/>
@@ -100,6 +98,816 @@ var globalState = exports.globalState = {
 /***/ }),
 /* 12 */,
 /* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+     value: true
+});
+exports.default = Content;
+
+var _hyperapp = __webpack_require__(0);
+
+function Content(_ref) {
+     var state = _ref.state,
+         actions = _ref.actions;
+
+     return (0, _hyperapp.h)(
+          "div",
+          { "class": "container allcontent" },
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "container searchbar" },
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "container searchlabels" },
+                    (0, _hyperapp.h)(
+                         "ul",
+                         null,
+                         (0, _hyperapp.h)(
+                              "li",
+                              { "class": "activeli" },
+                              (0, _hyperapp.h)("div", { "class": "ion-videocamera icon" }),
+                              (0, _hyperapp.h)(
+                                   "a",
+                                   { href: "#", "class": "activelink" },
+                                   "in theaters"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "li",
+                              { "class": "" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-timer icon" }),
+                              (0, _hyperapp.h)(
+                                   "a",
+                                   { href: "#" },
+                                   "coming soon"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "li",
+                              { "class": "" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-pie icon" }),
+                              (0, _hyperapp.h)(
+                                   "a",
+                                   { href: "#" },
+                                   "charts"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "li",
+                              { "class": "" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-monitor icon" }),
+                              (0, _hyperapp.h)(
+                                   "a",
+                                   { href: "#" },
+                                   "tv series"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "li",
+                              { "class": "" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-film icon" }),
+                              (0, _hyperapp.h)(
+                                   "a",
+                                   { href: "#" },
+                                   "trailers"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "li",
+                              { "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { "class": "dropdown show" },
+                                   (0, _hyperapp.h)("div", { "class": "ion-ios-film icon" }),
+                                   (0, _hyperapp.h)(
+                                        "a",
+                                        { "class": "btn btn-secondary dropdown-toggle", href: "#", role: "button", id: "dropdownMenuLink", "data-toggle": "dropdown", "aria-haspopup": "true", "aria-expanded": "false" },
+                                        "More"
+                                   )
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "li",
+                              null,
+                              (0, _hyperapp.h)(
+                                   "button",
+                                   { type: "button", "class": "btn" },
+                                   (0, _hyperapp.h)("div", { "class": "ion-android-star icon" }),
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        null,
+                                        "179"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "row rating-search-bar" },
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "col-12 col-md-8" },
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "iconwrap", style: { display: 'inline-block' } },
+                              (0, _hyperapp.h)("div", { "class": "ion-navicon-round icon" }),
+                              (0, _hyperapp.h)("div", { "class": "ion-grid icon" })
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating-bar-wrapper", style: { display: 'inline-block' } },
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   null,
+                                   "IMDb Rating"
+                              ),
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { "class": "rating-bar" },
+                                   (0, _hyperapp.h)("div", { "class": "circle a" }),
+                                   (0, _hyperapp.h)("div", { "class": "circle b" }),
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { id: "rate" },
+                                        "6.8"
+                                   ),
+                                   (0, _hyperapp.h)("div", { "class": "filler-bar inner" }),
+                                   (0, _hyperapp.h)("div", { "class": "filler-bar fill" })
+                              )
+                         )
+                    ),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "col-6 col-md-4" },
+                         (0, _hyperapp.h)(
+                              "form",
+                              null,
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { "class": "form-group" },
+                                   (0, _hyperapp.h)("a", { href: "#", "class": "ion-ios-search-strong" }),
+                                   (0, _hyperapp.h)("input", { type: "text", "class": "form-control searchline" })
+                              )
+                         )
+                    )
+               )
+          ),
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "container content" },
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://www.siamzone.com/movie/pic/2018/blackpanther/poster1.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://image.phimmoi.net/film/4032/poster.medium.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://hannibalclassics.com/wp-content/uploads/2017/04/setup-5c.jpeg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://image.phimmoi.net/film/4032/poster.medium.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://is1.mzstatic.com/image/thumb/Video128/v4/c4/ae/59/c4ae5927-bca9-e6e6-9b09-88f0eea4867c/source/1200x630bb.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://media.comicbook.com/2017/10/venom-default-1027837.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://static.posters.cz/image/750/plakaty/blade-runner-2049-fire-ice-i50059.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://digitalspyuk.cdnds.net/17/12/480x711/guardians-2-poster.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "card" },
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://image.phimmoi.net/film/4032/poster.medium.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "card-body" },
+                         (0, _hyperapp.h)(
+                              "h5",
+                              { "class": "card-title" },
+                              "Resident Evil"
+                         ),
+                         (0, _hyperapp.h)(
+                              "h6",
+                              { "class": "card-subtitle mb-2 text-muted" },
+                              "Horror, Sci-fi, Action"
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "rating" },
+                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
+                              (0, _hyperapp.h)(
+                                   "h5",
+                                   { id: "numberRating" },
+                                   "6.8"
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "a",
+                              { href: "#", "class": "" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { id: "corner-triangle" },
+                                   (0, _hyperapp.h)(
+                                        "span",
+                                        { "class": "triangle-text" },
+                                        "+"
+                                   )
+                              )
+                         )
+                    )
+               )
+          ),
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "container bottom" },
+               (0, _hyperapp.h)("div", { "class": "ion-load-a" })
+          )
+     );
+}
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+     value: true
+});
+exports.default = Footer;
+
+var _hyperapp = __webpack_require__(0);
+
+function Footer(_ref) {
+     var state = _ref.state,
+         actions = _ref.actions;
+
+     return (0, _hyperapp.h)(
+          "div",
+          { "class": "container-fluid footer" },
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "row top" },
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "col-sm-4 f" },
+                    (0, _hyperapp.h)(
+                         "h5",
+                         { id: "brand" },
+                         "IMDb"
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "col-sm-4 s" },
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "icons" },
+                         (0, _hyperapp.h)("div", { "class": "ion-social-twitter" }),
+                         (0, _hyperapp.h)("div", { "class": "ion-social-facebook" }),
+                         (0, _hyperapp.h)("div", { "class": "ion-social-instagram" })
+                    )
+               ),
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "col-sm-4 t" },
+                    (0, _hyperapp.h)(
+                         "h6",
+                         { id: "copyright" },
+                         "1990-2015 IMDB.COM, INC."
+                    )
+               )
+          ),
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "row bottom" },
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "col-sm" },
+                    (0, _hyperapp.h)("div", { "class": "borderline" }),
+                    (0, _hyperapp.h)(
+                         "h6",
+                         { "class": "" },
+                         "show menu"
+                    )
+               )
+          )
+     );
+}
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+     value: true
+});
+exports.default = Header;
+
+var _hyperapp = __webpack_require__(0);
+
+function Header(_ref) {
+     var state = _ref.state,
+         actions = _ref.actions;
+
+     return (0, _hyperapp.h)(
+          "div",
+          { "class": "lg-container" },
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "jain-container" },
+               (0, _hyperapp.h)(
+                    "div",
+                    { "class": "jumbotron" },
+                    (0, _hyperapp.h)(
+                         "nav",
+                         { "class": "navbar navbar-expand-md  navbar-dark " },
+                         (0, _hyperapp.h)(
+                              "a",
+                              { "class": "navbar-brand", href: "#" },
+                              (0, _hyperapp.h)("img", { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/New-imdb-logo.png/640px-New-imdb-logo.png" })
+                         ),
+                         (0, _hyperapp.h)(
+                              "button",
+                              { "class": "navbar-toggler custom-toggler", type: "button", "data-toggle": "collapse", "data-target": "#navbarNavDropdown", "aria-controls": "navbarNavDropdown", "aria-expanded": "false", "aria-label": "Toggle navigation" },
+                              (0, _hyperapp.h)("span", { "class": "navbar-toggler-icon" })
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "collapse navbar-collapse", id: "navbarNavDropdown" },
+                              (0, _hyperapp.h)(
+                                   "ul",
+                                   { "class": "navbar-nav" },
+                                   (0, _hyperapp.h)(
+                                        "li",
+                                        { "class": "nav-item dropdown position-relative" },
+                                        (0, _hyperapp.h)(
+                                             "a",
+                                             { "class": "nav-link dropdown-toggle effect-1", href: "https://bootstrapthemes.co", id: "navbarDropdownMenuLink", "data-toggle": "dropdown", "aria-haspopup": "true", "aria-expanded": "false" },
+                                             "Movies"
+                                        )
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "li",
+                                        { "class": "nav-item dropdown position-relative" },
+                                        (0, _hyperapp.h)(
+                                             "a",
+                                             { "class": "nav-link dropdown-toggle", href: "https://bootstrapthemes.co", id: "navbarDropdownMenuLink", "data-toggle": "dropdown", "aria-haspopup": "true", "aria-expanded": "false" },
+                                             "Gallery"
+                                        )
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "li",
+                                        { "class": "nav-item dropdown position-relative" },
+                                        (0, _hyperapp.h)(
+                                             "a",
+                                             { "class": "nav-link dropdown-toggle", href: "https://bootstrapthemes.co", id: "navbarDropdownMenuLink", "data-toggle": "dropdown", "aria-haspopup": "true", "aria-expanded": "false" },
+                                             "Community"
+                                        )
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "li",
+                                        { "class": "nav-item dropdown position-relative" },
+                                        (0, _hyperapp.h)(
+                                             "a",
+                                             { "class": "nav-link dropdown-toggle", href: "https://bootstrapthemes.co", id: "navbarDropdownMenuLink", "data-toggle": "dropdown", "aria-haspopup": "true", "aria-expanded": "false" },
+                                             "News"
+                                        )
+                                   )
+                              )
+                         )
+                    ),
+                    (0, _hyperapp.h)(
+                         "div",
+                         { "class": "container-fluid hero" },
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "row" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { "class": "col-md-12" },
+                                   (0, _hyperapp.h)(
+                                        "h1",
+                                        { "class": "display-4" },
+                                        "The Martian"
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "h5",
+                                        { "class": "label" },
+                                        "adventure"
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "h5",
+                                        { "class": "label" },
+                                        "sci-fi"
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "h5",
+                                        { "class": "label" },
+                                        "thriller"
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "a",
+                                        { href: "#" },
+                                        (0, _hyperapp.h)(
+                                             "div",
+                                             { "class": "btn-wrap" },
+                                             (0, _hyperapp.h)(
+                                                  "button",
+                                                  { id: "playButton" },
+                                                  (0, _hyperapp.h)(
+                                                       "span",
+                                                       null,
+                                                       "Watch Trailer"
+                                                  ),
+                                                  (0, _hyperapp.h)("div", { "class": "ion-android-arrow-dropright-circle" })
+                                             )
+                                        )
+                                   )
+                              )
+                         ),
+                         (0, _hyperapp.h)(
+                              "div",
+                              { "class": "row datetext" },
+                              (0, _hyperapp.h)(
+                                   "div",
+                                   { "class": "col-md-12" },
+                                   (0, _hyperapp.h)(
+                                        "h5",
+                                        { "class": "releaseDate", id: "location" },
+                                        "In theaters"
+                                   ),
+                                   (0, _hyperapp.h)(
+                                        "h5",
+                                        { "class": "releaseDate", id: "date" },
+                                        "15 Oct, 2015 (USA)"
+                                   )
+                              )
+                         )
+                    ),
+                    (0, _hyperapp.h)("div", { "class": "row hero-2" })
+               )
+          )
+     );
+}
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+     value: true
+});
+exports.default = TopImg;
+
+var _hyperapp = __webpack_require__(0);
+
+function TopImg(_ref) {
+     var state = _ref.state,
+         actions = _ref.actions;
+
+     return (0, _hyperapp.h)(
+          "section",
+          null,
+          (0, _hyperapp.h)(
+               "div",
+               { "class": "container" },
+               (0, _hyperapp.h)("div", { "class": "wide" })
+          )
+     );
+}
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -146,4 +954,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 });
 
 /***/ })
-],[13]);
+],[17]);
