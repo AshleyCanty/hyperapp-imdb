@@ -36,7 +36,8 @@
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
     "sass": "gulp styles",
-    "js": "gulp webpack"
+    "js": "gulp webpack",
+    “deploy”: “gh-pages -d build”
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1"
