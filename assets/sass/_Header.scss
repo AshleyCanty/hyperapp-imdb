@@ -19,6 +19,13 @@
      .navbar-expand-md{
           background: rgba(0,0,0,.0);
      }
+     li {
+          border-bottom: 2px solid transparent;
+          transition: all .4s ease-in-out;
+          &:hover {
+               border-bottom: 2px solid $yellowMain;
+          }
+     }
      li a.nav-link {
           color: white !important;
      }
@@ -222,13 +229,6 @@ a.dropdown-item {
                           width: fit-content;
                           margin: 0 auto;
                      }
-
-                    li {
-                         transition: all .4s ease-in-out;
-                         &:hover {
-                              border-bottom: 1px solid $yellowMain;
-                         }
-                    }
                }
                .navbar-brand {
                     // position: absolute;
@@ -280,11 +280,6 @@ a.dropdown-item {
                li {
                     margin-left: 35px;
                     margin-right: 110px;
-                    transition: all .4s ease-in-out;
-
-                    &:hover {
-                         border-bottom: 1px solid $yellowMain;
-                    }
 
                     &:nth-child(1) {
                          margin-left: 0px;

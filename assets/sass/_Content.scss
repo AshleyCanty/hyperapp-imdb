@@ -15,7 +15,7 @@
      }
 
      .card:hover {
-          transform: scale(1);
+          animation: scale 0.3s linear;
      }
 
      .row.rating-search-bar {
@@ -199,6 +199,28 @@
                }
           }
      }
+
+     @keyframes scaledown {
+       0%{
+           -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+       }
+       100%{
+         -webkit-transform: scale(1);
+           transform: scale(1);
+       }
+     }
+
+     @keyframes scale {
+       0%{
+           -webkit-transform: scale(1);
+           transform: scale(1);
+       }
+       100%{
+         -webkit-transform: scale(1);
+           transform: scale(1);
+       }
+     }
  }
 
 // Medium devices (tablets, 768px and up)
@@ -224,18 +246,15 @@
           }
      }
 
-     .card:hover {
-          transform: scale(1.1);
-          z-index: 999;
-     }
-
      .container.searchlabels ul li {
           margin: 0 0.3%;
           padding: 16px 8px 33px;
-          // transition: border 0s ease-in-out !important;
+          border-bottom: 2px solid #dadada;
+          transition: border-color .4s ease-in-out;;
 
           &:hover {
-               background-color: #f3f3f3;
+               border-bottom: 2px solid $yellowMain;
+               background-color: #dadada;
           }
 
           a {
@@ -317,11 +336,9 @@
 
           .searchlabels ul {
                padding-bottom: 35px;
-               border-bottom: 2px solid rgba(0,0,0,.1);
+               border-bottom: 2px solid #dadada;
           }
           .searchlabels ul li {
-               transition: border-color .4s ease-in-out;
-               border-color: $yellowMain;
 
                &:hover {
                     background: #F3F3F3;
@@ -365,6 +382,44 @@
                     }
                }
           }
+     }
+
+     .card {
+          -webkit-animation: scaledown .4s ease;
+          animation: scaledown .4s linear;
+          animation-fill-mode: forwards;
+          transform-origin: 50% 50%;
+
+          &:hover {
+               -webkit-animation: scale .4s ease;
+               animation: scale .4s linear;
+               animation-fill-mode: forwards;
+               transform-origin: 50% 50%;
+          }
+     }
+
+
+     @keyframes scaledown {
+       0%{
+           -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+       }
+       100%{
+         -webkit-transform: scale(1.0);
+           transform: scale(1.0);
+       }
+     }
+
+     @keyframes scale {
+       0%{
+           -webkit-transform: scale(1);
+           transform: scale(1);
+       }
+       100%{
+         -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+           box-shadow: 0px 10px 60px 10px rgba(0,0,0,.3);
+       }
      }
  }
 
@@ -451,7 +506,8 @@
      }
 
      .container.container.searchlabels ul li {
-          margin: 0 2.7%;
+          margin: 0 2.5%;
+          margin-right: 3.5%;
      }
 
      div.container.searchlabels {
@@ -467,18 +523,18 @@
      }
 
      .container.searchlabels ul {
-          padding: 10px 50px 35px;
+          padding: 10px 0px 35px;
      }
      .container.container.searchlabels ul li {
           margin: 0 2.73%;
 
           &:nth-child(1){
-               margin-left: -50px;
+               margin-left: 0px;
           }
 
 
           &:nth-last-child(1) {
-               margin-right: -48px;
+               margin-right: 0px;
           }
      }
 
@@ -768,7 +824,6 @@ div.container.bottom {
      border: 1px !important;
      border-radius: 3px;
      border-radius: none !important;
-     transition: transform .4s ease-in-out;
 
      &:hover {
           // transform: scale(1.1);
