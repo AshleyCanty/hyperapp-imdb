@@ -38,7 +38,7 @@ export default function Header({state, actions}) {
                                    </ul>
                               </div>
                          </nav>
-                         <div class="container-fluid hero">
+                         <div class="container hero">
                               <div class="row">
 
                                    <div class="col-md-12">

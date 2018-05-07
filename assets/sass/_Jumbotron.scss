@@ -5,7 +5,7 @@
           margin-top: 80px;
      }
 
-     .jumbotron .container-fluid.hero {
+     .jumbotron .container.hero {
           top: 71%;
           transform: translateY(-50%);
      }
@@ -14,8 +14,13 @@
           height: 650px;
           min-width: 490px;
 
-          .container-fluid.hero #location.releaseDate,
-          .container-fluid.hero #date.releaseDate {
+          .container {
+
+
+          }
+
+          .container.hero #location.releaseDate,
+          .container.hero #date.releaseDate {
                font-size: 1rem;
           }
         }
@@ -33,7 +38,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-     .jumbotron .container-fluid.hero {
+     .jumbotron .container.hero {
           top: 63%;
           left: 0%;
           transform: translateY(-50%);
@@ -41,6 +46,10 @@
 
      .jumbotron {
           height: 700px;
+
+          .container {
+
+          }
 
            .display-4 {
                font-weight: 800;
@@ -51,18 +60,18 @@
                margin-top: 75px;
           }
 
-          div.container-fluid.hero div.row{
+          div.container.hero div.row{
                margin-left: 1%;
           }
 
 
 
-          &.container-fluid.hero #location.releaseDate {
+          &.container.hero #location.releaseDate {
                font-size: 14px;
                margin-top: 22px;
           }
 
-          &.container-fluid.hero #date.releaseDate {
+          &.container.hero #date.releaseDate {
                font-size: 17px;
           }
 
@@ -78,9 +87,13 @@
 @media (min-width: 992px) {
      .jumbotron {
           height: 900px;
+
+          .container {
+
+          }
      }
 
-     .jumbotron .container-fluid.hero {
+     .jumbotron .container.hero {
           top: 70%;
           left: 5.5%;
           transform: translateY(-50%);
@@ -90,7 +103,7 @@
           margin-top: 175px;
      }
 
-     div.container-fluid.hero div.row{
+     div.container.hero div.row{
           margin-left: 1%;
      }
 
@@ -99,6 +112,10 @@
 
  // Extra large devices (large desktops, 1200px and up)
  @media (min-width: 1200px){
+
+      .jumbotron.container {
+
+      }
 
  }
 
@@ -132,7 +149,9 @@
            background-image: linear-gradient(0deg, #000, rgba(0, 0, 0, .67) 53%, transparent);
      }
 
-    .container-fluid {
+    .container {
+         text-align: left;
+         background: transparent;
          &.hero {
                position: absolute;
                z-index: 200;

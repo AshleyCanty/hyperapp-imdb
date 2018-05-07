@@ -667,7 +667,7 @@ function Footer(_ref) {
 
      return (0, _hyperapp.h)(
           "div",
-          { "class": "container-fluid footer" },
+          { "class": "container footer" },
           (0, _hyperapp.h)(
                "div",
                { "class": "row top" },
@@ -805,7 +805,7 @@ function Header(_ref) {
                     ),
                     (0, _hyperapp.h)(
                          "div",
-                         { "class": "container-fluid hero" },
+                         { "class": "container hero" },
                          (0, _hyperapp.h)(
                               "div",
                               { "class": "row" },

@@ -49,7 +49,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-     .container-fluid.footer {
+     .container.footer {
           width: 100%;
           background: white;
           color: #bbbbbb;
@@ -116,7 +116,7 @@
      }
 }
 
-.container-fluid.footer {
+.container.footer {
      width: 100%;
      background: white;
      color: #bbbbbb;
