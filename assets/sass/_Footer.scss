@@ -118,6 +118,7 @@
 
 .container.footer {
      width: 100%;
+     max-width: 100vw;
      background: white;
      color: #bbbbbb;
      height: 115px;
@@ -177,6 +178,10 @@
           }
      }
      .borderline {
+          width: 100%;
+     }
+
+     .row.top, .row.bottom {
           width: 100%;
      }
 }

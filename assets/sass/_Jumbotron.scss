@@ -121,6 +121,8 @@
 
 
 
+
+
 .jumbotron {
      background: $yellowGold;
      background-color: #000;
@@ -154,7 +156,13 @@
          background: transparent;
          &.hero {
                position: absolute;
+               padding-right: 0;
+               width: 90%;
                z-index: 200;
+
+               .row {
+                    width: fit-content;
+              }
 
               #location.releaseDate {
                    color: white !important;
