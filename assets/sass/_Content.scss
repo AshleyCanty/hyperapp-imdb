@@ -236,6 +236,10 @@
           //pink 2nd
           background: white;
      }
+     .container.content {
+          padding-bottom: 0 !important;
+          top:0 !important;
+     }
 
      ul li:nth-last-child(2) {
           border-radius: 0 0 3px 3px;
@@ -453,7 +457,7 @@
           }
           .row.rating-search-bar .col-12.col-md-8 .iconwrap {
                display: inline-block;
-               width: fit-content
+               width: fit-content;
                float: left;
           }
 
@@ -821,14 +825,14 @@ font-size: 20px;
 div.container.bottom {
      width: 100%;
      margin: 0 auto;
-     height: 200px;
+     height: 220px;
      background: #f3f3f3;
 
      .ion-load-a {
           font-size: 50px;
           color: $yellowMain;
           position: relative;
-          top: 38%;
+          top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
 

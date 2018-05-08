@@ -1,22 +1,37 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) {
 
+     .navbar.navbar-expand-md {
+          z-index: 99999;
+          ul li a {
+               font-weight: 600;
+          }
+     }
+
      #location.releaseDate {
           margin-top: 80px;
      }
 
-     .jumbotron .container.hero {
-          top: 61%;
-          padding-left: 20px;
-     }
-
      .jumbotron {
+          z-index: 1;
           height: 650px;
           min-width: 490px;
+
+          .display-4 {
+               font-weight: 500;
+          }
 
           .container {
                text-align: left;
                background: transparent;
+
+               &.hero {
+                    position: relative;
+                    display: block;
+                    margin: 0 auto;
+                    top: 33%;
+                    left: 2%
+               }
 
           }
 
@@ -43,6 +58,8 @@
           padding: 0 !important
      }
 
+
+
      .jumbotron {
           background-color: #eb5ba7;
           height: 700px;
@@ -51,11 +68,13 @@
                padding: 0 !important
           }
 
-          .hero {
-               top: 24%;
-               margin: 0 auto;
+          .container.hero {
+               padding-left: 10px;
+               position: relative;
                display: block;
-               padding: 0;
+               margin: 0 auto;
+               top: 20%;
+               // margin-left: 130px;
 
                .row, .col-md-12 {
                     padding: 0 !important;
@@ -101,8 +120,12 @@
      }
 
      .jumbotron .container.hero {
+          padding-left: 10px;
           position: relative;
-          top: 63%;
+          display: block;
+          margin: 0 auto;
+          top: 37%;
+          // margin-left: 130px;
      }
 
      #location.releaseDate {
@@ -119,9 +142,12 @@
  // Extra large devices (large desktops, 1200px and up)
  @media (min-width: 1200px){
 
-      .jumbotron.container {
+     .jumbotron .container.hero {
+          position: relative;
 
-      }
+     }
+
+
 
  }
 
@@ -161,10 +187,10 @@
          text-align: left;
          background: transparent;
          &.hero {
-               position: absolute;
+
                padding-right: 0;
-               width: 90%;
-               z-index: 200;
+               width: auto;
+               z-index: 1;
 
                .row {
                     background: transparent;

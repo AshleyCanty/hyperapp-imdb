@@ -5,6 +5,7 @@
      .navbar-dark .navbar-nav .nav-link {
           color: $greySemi !important;
      }
+
      .navbar-expand-md .navbar-collapse.collapse li:hover {
           padding:0;
           border-bottom: none;
@@ -12,6 +13,8 @@
      .navbar-expand-md{
           background: #f3f3f3;
      }
+
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -20,8 +23,11 @@
           background: rgba(0,0,0,.0);
      }
      li {
+          margin: 0 14px;
+          padding: 0 8px;
           border-bottom: 2px solid transparent;
           transition: all .4s ease-in-out;
+
           &:hover {
                border-bottom: 2px solid $yellowMain;
           }
@@ -48,15 +54,9 @@
 .navbar.navbar-expand-md {
      margin: 0 auto;
      text-align: center;
-     // position: absolute;
-     // top: 0px;
-     // width: 100%;
-     // padding: 0;
-     z-index: 300;
-     // background: rgba(0,0,0,.0);
+     z-index: 9999;
 
      .navbar-brand {
-          // position: absolute;
           img {
               width: 90px;
           }
@@ -68,7 +68,7 @@
                text-transform: uppercase;
                transition: all .3s ease-in-out;
                font-weight: 300;
-               padding: 20px;
+               // padding: 20px;
                margin-bottom: 0;
                font-size: 14px;
 
@@ -278,11 +278,11 @@ a.dropdown-item {
                text-align: center;
 
                li {
-                    margin-left: 35px;
-                    margin-right: 110px;
+                    // margin-left: 35px;
+                    // margin-right: 110px;
 
                     &:nth-child(1) {
-                         margin-left: 0px;
+                         // margin-left: 0px;
 
                          .dropdown-menu.show {
                               top: 60px;
