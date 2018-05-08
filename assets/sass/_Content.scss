@@ -226,6 +226,10 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
+     .container .col-6.col-md-4 form {
+          top: 70%;
+     }
+
      .activeli {
           background: #f3f3f3 !important;
           border-bottom: 2px solid $yellowMain !important;
@@ -485,10 +489,6 @@
           }
           .container .container div.col-12.col-md-8 .rating-bar-wrapper {
                float: right;
-          }
-
-          .container .col-6.col-md-4 form {
-               top: 70%;
           }
 
           .container.searchlabels ul li {
