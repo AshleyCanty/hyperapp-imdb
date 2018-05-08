@@ -502,7 +502,8 @@
      html , body, .container {
           // background: #d2a8e7;
           //purple
-          // background: white;
+          // background: white
+
      }
 
 
@@ -577,6 +578,17 @@
                     }
                }
           }
+     }
+     .container div.col-12.col-md-8  {
+          padding-top: 18px;
+          padding-right: 0px;
+     }
+     .container div.col-12.col-md-8 .rating-bar-wrapper{
+          width: 554px;
+     }
+
+     .row.rating-search-bar .col-12.col-md-8 .rating-bar .filler-bar.inner {
+          width: 100%;
      }
 }
 
