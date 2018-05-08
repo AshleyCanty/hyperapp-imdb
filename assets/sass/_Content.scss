@@ -616,8 +616,8 @@
      }
 
      .row.rating-search-bar .col-6.col-md-4 form .ion-ios-search-strong {
-          position: absolute;
-          left: 92%;
+          position: absolute !important;
+          left: 92% !important;
      }
 
 
