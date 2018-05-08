@@ -451,9 +451,20 @@
           div.col-12.col-md-8 {
                // margin-right: -17px;
           }
-          .row.rating-search-bar .icon:nth-child(1) {
-
+          .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+               display: inline-block;
+               width: fit-content
+               float: left;
           }
+
+          .container div.col-12.col-md-8 .rating-bar-wrapper {
+               display: inline-block;
+          }
+
+          .container .row.rating-search-bar {
+               background: #f3f3f3;
+          }
+
           .row.rating-search-bar .icon:nth-child(2) {
                margin-right: 30px;
           }
@@ -513,7 +524,8 @@
      }
 
      .container.container.searchlabels ul li {
-          margin: 0 2.5%;
+          margin: 0;
+          padding: 16px 5px 33px;
           margin-right: 3.5%;
      }
 

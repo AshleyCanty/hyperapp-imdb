@@ -6,8 +6,8 @@
      }
 
      .jumbotron .container.hero {
-          top: 71%;
-          transform: translateY(-50%);
+          top: 61%;
+          padding: 20px;
      }
 
      .jumbotron {
@@ -38,18 +38,18 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
-     .jumbotron .container.hero {
-          top: 63%;
-          left: 0%;
-          transform: translateY(-50%);
-     }
-
      .jumbotron {
           height: 700px;
 
-          .container {
+          .hero {
+               top: 24%;
+               margin: 0 auto;
+               display: block;
+               padding: 0;
 
+               .row, .col-md-12 {
+                    padding: 0 !important;
+               }
           }
 
            .display-4 {
@@ -88,16 +88,11 @@
 @media (min-width: 992px) {
      .jumbotron {
           height: 900px;
-
-          .container {
-
-          }
      }
 
      .jumbotron .container.hero {
-          top: 70%;
-          left: 5.5%;
-          transform: translateY(-50%);
+          position: relative;
+          top: 63%;
      }
 
      #location.releaseDate {
@@ -162,6 +157,7 @@
                z-index: 200;
 
                .row {
+                    background: transparent;
                     width: fit-content;
               }
 
