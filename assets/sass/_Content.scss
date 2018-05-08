@@ -385,7 +385,7 @@
 
           .content {
                position: inherit;
-               top: -45px !important;
+               top: -45px;
 
                .card {
                     width: 21rem;
@@ -434,46 +434,6 @@
            box-shadow: 0px 10px 60px 10px rgba(0,0,0,.3);
        }
      }
-
-
-.container div.col-12.col-md-8 {
-     position: relative;
-}
-
-.container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-     display: inline-block;
-     left: 4px;
-     top: 20px;
-}
-
-.container .container div.col-12.col-md-8 .rating-bar-wrapper {
-     display: inline-block;
-     left: 105px;
-     position: absolute;
-     top: -5px;
-}
-
-.row.rating-search-bar .col-6.col-md-4 {
-         position: relative;
-}
-
-.row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
-
-.row.rating-search-bar .col-6.col-md-4 form .form-group {
-     position: absolute;
-     top: 11px;
-     left: 26px;
-     width: 90%;
-}
-
-
-
-
-
-
-
-
-
 
  }
 
@@ -565,6 +525,39 @@
                }
           }
      }
+
+     .container div.col-12.col-md-8 {
+          position: relative;
+     }
+
+     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+          display: inline-block;
+          left: 4px;
+          top: 20px;
+     }
+
+     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
+          display: inline-block;
+          left: 105px;
+          position: absolute;
+          top: -5px;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+              position: relative;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
+
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          position: absolute;
+          top: 11px;
+          left: 26px;
+          width: 90%;
+     }
+
+
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
