@@ -606,13 +606,19 @@
               position: relative;
      }
 
-     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
+     .row.rating-search-bar .col-6.col-md-4 form {
+          position: relative !important;
+          height: 100%;
+          width: 280px;
+          margin-bottom: 0;
+     }
 
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          position: absolute;
-          top: 11px;
-          left: 26px;
-          width: 90%;
+          position: static;
+          height: 100%;
+         width: 100%;
+         margin-bottom: 0;
+         margin-left: 23px;
      }
 
      .row.rating-search-bar .col-6.col-md-4 form .ion-ios-search-strong {
@@ -620,7 +626,11 @@
           left: 92% !important;
      }
 
-
+     .row.rating-search-bar .col-6.col-md-4 form input {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+     }
 }
 
 // Extra large devices (large desktops, 1200px and up)
