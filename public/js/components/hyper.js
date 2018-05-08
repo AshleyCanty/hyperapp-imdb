@@ -251,7 +251,7 @@ function Content(_ref) {
                                    "div",
                                    { "class": "form-group" },
                                    (0, _hyperapp.h)("a", { href: "#", "class": "ion-ios-search-strong" }),
-                                   (0, _hyperapp.h)("input", { type: "text", "class": "form-control searchline" })
+                                   (0, _hyperapp.h)("input", { type: "text", "class": "form-control" })
                               )
                          )
                     )

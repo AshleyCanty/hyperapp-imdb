@@ -222,30 +222,6 @@
        }
      }
 
-     .container div.col-12.col-md-8 {
-          position: relative;
-     }
-
-     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-          display: inline-block;
-     }
-
-     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
-          display: inline-block;
-          position: absolute;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 {
-              position: relative;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
-
-     .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          position: absolute;
-          width: 87%;
-          top: 11px;
-     }
 
  }
 
@@ -253,13 +229,13 @@
 @media (min-width: 768px) {
 
 
-     .container div.col-12.col-md-8 .rating-bar-wrapper {
-          float: right;
-     }
-
-     .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-          float: left;
-     }
+     // .container div.col-12.col-md-8 .rating-bar-wrapper {
+     //      float: right;
+     // }
+     //
+     // .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+     //      float: left;
+     // }
 
      .activeli {
           background: #f3f3f3 !important;
@@ -364,13 +340,7 @@
           .col-6.col-md-4 {
                padding-left: 0;
 
-               form {
-                    // width: 100%;
-                    // margin-top: 2.5px;
-                    // top: 63%;
-                    // transform: translateY(-50%);
-                    // margin-top: 3px;
-               }
+
           }
 
           .searchlabels ul {
@@ -460,36 +430,6 @@
            box-shadow: 0px 10px 60px 10px rgba(0,0,0,.3);
        }
      }
-
-
-     .container div.col-12.col-md-8 {
-          position: relative;
-     }
-
-     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-          display: inline-block;
-     }
-
-     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
-          display: inline-block;
-          position: absolute;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 {
-              position: relative;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
-
-     .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          position: absolute;
-          width: 87%;
-          top: 11px;
-          left: 27px;
-     }
-
-
-
  }
 
 // Large devices (desktops, 992px and up)
@@ -515,29 +455,8 @@
           max-width: 694px;
      }
 
-     .rating-bar-wrapper {
-          width: 77.7%;
-     }
-
-     .container div.col-12.col-md-8 .rating-bar-wrapper {
-          width: 83.8%;
-     }
-
      .container {
 
-          div.col-12.col-md-8 {
-               // margin-right: -17px;
-          }
-          .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-               display: inline-block;
-               width: fit-content;
-               float: left;
-          }
-
-          .container div.col-12.col-md-8 .rating-bar-wrapper {
-               display: inline-block;
-               float: right;
-          }
 
           .container .row.rating-search-bar {
                background: #f3f3f3;
@@ -545,10 +464,6 @@
 
           .row.rating-search-bar .icon:nth-child(2) {
                margin-right: 30px;
-          }
-
-          .container .container div.col-12.col-md-8 .rating-bar-wrapper {
-               float: right;
           }
 
           .container.searchlabels ul li {
@@ -580,57 +495,6 @@
                }
           }
      }
-
-
-
-
-     .container div.col-12.col-md-8 {
-          position: relative;
-          margin-top: 34px;
-     }
-
-     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-          display: inline-block;
-          left: 4px;
-          top: 20px;
-     }
-
-     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
-          display: inline-block;
-          left: 105px;
-          position: absolute;
-          top: -5px;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 {
-              position: relative;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form {
-          position: relative !important;
-          height: 100%;
-          width: 280px;
-          margin-bottom: 0;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          position: static;
-          height: 100%;
-         width: 100%;
-         margin-bottom: 0;
-         margin-left: 23px;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form .ion-ios-search-strong {
-          position: absolute !important;
-          left: 92% !important;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form input {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-     }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -641,18 +505,6 @@
           // background: white;
      }
 
-     div.row.rating-search-bar .col-6.col-md-4 form {
-          // top: 30%;
-          // float: right;
-          // width: 100%;
-          // top: 30%;
-          // transform: translateY(-50%);
-          // margin-top: 3px;
-
-          .form-group {
-               margin-bottom: 0;
-          }
-     }
 
      .searchbar {
           max-width: 1176px;
@@ -688,12 +540,12 @@
      }
 
      .container div.col-12.col-md-8 {
-          text-align: left;
-          padding-right: 20px;
-          text-align: right;
+          // text-align: left;
+          // padding-right: 20px;
+          // text-align: right;
 
           .rating-bar-wrapper {
-               width: 82.5%;
+               // width: 82.5%;
 
                #rate {
                     left: 64%;
@@ -712,7 +564,7 @@
      .container div.col-6.col-md-4 {
           // margin-left: -1px;
           // padding-right: 43px;
-          width: 98%;
+          // width: 98%;
      }
 
      .container {
@@ -726,62 +578,6 @@
                }
           }
      }
-
-
-
-     .container div.col-12.col-md-8 {
-          position: relative;
-     }
-
-     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-          display: inline-block;
-          left: 23px;
-          top: 20px;
-     }
-
-     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
-          display: inline-block;
-          left: 136px;
-          position: absolute;
-          top: -5px;
-     }
-
-     .row.rating-search-bar .col-12.col-md-8 .rating-bar {
-          width: 95%;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 {
-              position: relative;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form {
-          height: 100%;
-          width: 100%;
-          position: absolute;
-          top: -2px;
-          left: 0px;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          position: static;
-          width: 92%;
-     }
-
-     .row.rating-search-bar .col-12.col-md-8 .rating-bar {
-          width: 95% !important;
-     }
-
-     .row.rating-search-bar .col-6.col-md-4 form .ion-ios-search-strong {
-          position: absolute;
-          left: 83%;
-     }
-
-     .container.container.searchlabels ul li {
-          margin: 0 31.8px;
-     }
-
-
-
 }
 
 .btn {
@@ -898,7 +694,7 @@ font-size: 20px;
 
                .rating-bar {
                     position: relative;
-                    display: block;
+                    // display: block;
                     height: 50px;
                     .circle {
                          z-index: 250;

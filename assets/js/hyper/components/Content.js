@@ -63,7 +63,7 @@ export default function Content({state, actions}) {
                               <form>
                                    <div class="form-group">
                                         <a href="#" class="ion-ios-search-strong"></a>
-                                        <input type="text" class="form-control searchline"></input>
+                                        <input type="text" class="form-control"></input>
                                    </div>
                               </form>
                          </div>
