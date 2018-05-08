@@ -38,7 +38,13 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+
+     .col-md-12 {
+          padding: 0 !important
+     }
+
      .jumbotron {
+          background-color: #eb5ba7;
           height: 700px;
 
           .col-md-12 {
