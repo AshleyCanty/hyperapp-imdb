@@ -60,9 +60,9 @@
           }
 
           .row.rating-search-bar .col-6.col-md-4 {
-               padding: 0;
-               display: block;
-               margin: 0 auto;
+               // padding: 0;
+               // display: block;
+               // margin: 0 auto;
                width: 78%;
 
                form{
@@ -338,11 +338,11 @@
                padding-left: 0;
 
                form {
-                    width: 100%;
-                    margin-top: 2.5px;
-                    top: 63%;
-                    transform: translateY(-50%);
-                    margin-top: 3px;
+                    // width: 100%;
+                    // margin-top: 2.5px;
+                    // top: 63%;
+                    // transform: translateY(-50%);
+                    // margin-top: 3px;
                }
           }
 
@@ -443,18 +443,19 @@
           background: white;
      }
 
-     .container .col-6.col-md-4 form {
-          top: 63%;
-          width: 99%;
-          transform: translateY(-50%);
-          margin-top: 3px;
-     }
-     .searchbar {
-          max-width: 694px;
-     }
      .col-6.col-md-4 {
           margin-left: -14px;
           width: 98%;
+     }
+
+     // .container .col-6.col-md-4 form {
+     //      top: 63%;
+     //      width: 99%;
+     //      transform: translateY(-50%);
+     //      margin-top: 3px;
+     // }
+     .searchbar {
+          max-width: 694px;
      }
 
      .rating-bar-wrapper {
@@ -531,14 +532,14 @@
           //purple
           // background: white;
      }
-     
+
      div.row.rating-search-bar .col-6.col-md-4 form {
-          top: 30%;
-          float: right;
-          width: 100%;
-          top: 30%;
-          transform: translateY(-50%);
-          margin-top: 3px;
+          // top: 30%;
+          // float: right;
+          // width: 100%;
+          // top: 30%;
+          // transform: translateY(-50%);
+          // margin-top: 3px;
 
           .form-group {
                margin-bottom: 0;
@@ -601,8 +602,8 @@
      }
 
      .container div.col-6.col-md-4 {
-          margin-left: -1px;
-          padding-right: 43px;
+          // margin-left: -1px;
+          // padding-right: 43px;
           width: 98%;
      }
 
