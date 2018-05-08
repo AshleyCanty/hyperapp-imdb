@@ -12,6 +12,10 @@
 @import "Footer";
 @import "Jumbotron";
 
+.container {
+    background: red;
+}
+
 
 $textFont: 'Roboto Condensed', sans-serif;
 $headerFont: 'Roboto', sans-serif;
