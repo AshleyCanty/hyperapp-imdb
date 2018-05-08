@@ -1,5 +1,11 @@
 @import "variables";
 
+
+.col-md-12 {
+     padding: 0 !important;    
+     background: red;
+}
+
 // Small Devices (phones)
 @media (max-width: 767px) {
      .navbar-dark .navbar-nav .nav-link {
@@ -267,8 +273,15 @@ a.dropdown-item {
      }
 
      .col-md-12 {
-          padding: 0 10% !important;
+          padding: 0 10%;
      }
+     
+     .jumbotron { 
+          .col-md-12 {
+               padding: 0 !important;
+          }
+     }
+          
 
      .collapse{
           padding-right: 0px;

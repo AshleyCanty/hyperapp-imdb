@@ -1,5 +1,8 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) {
+     .container {
+     background: teal;
+     }
 
      .navbar.navbar-expand-md {
           z-index: 99999;
@@ -61,7 +64,7 @@
 
 
      .jumbotron {
-          background-color: #eb5ba7;
+          background-color: teal;
           height: 700px;
 
           .col-md-12 {
