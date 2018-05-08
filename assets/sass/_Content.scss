@@ -234,10 +234,6 @@
           float: left;
      }
 
-     .container .col-6.col-md-4 form {
-          top: 63%;
-     }
-
      .activeli {
           background: #f3f3f3 !important;
           border-bottom: 2px solid $yellowMain !important;
@@ -344,7 +340,7 @@
                form {
                     width: 100%;
                     margin-top: 2.5px;
-                    top: 49%;
+                    top: 63%;
                     transform: translateY(-50%);
                     margin-top: 3px;
                }
