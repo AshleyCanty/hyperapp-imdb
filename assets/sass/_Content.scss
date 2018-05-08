@@ -586,6 +586,7 @@
 
      .container div.col-12.col-md-8 {
           position: relative;
+          margin-top: 34px;
      }
 
      .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
@@ -614,6 +615,10 @@
           width: 90%;
      }
 
+     .row.rating-search-bar .col-6.col-md-4 form .ion-ios-search-strong {
+          position: absolute;
+          left: 92%;
+     }
 
 
 }
