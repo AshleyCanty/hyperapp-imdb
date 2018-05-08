@@ -385,7 +385,7 @@
 
           .content {
                position: inherit;
-               top: -45px;
+               top: -45px !important;
 
                .card {
                     width: 21rem;
@@ -442,13 +442,13 @@
 
 .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
      display: inline-block;
-     left: 15px;
+     left: 4px;
      top: 20px;
 }
 
 .container .container div.col-12.col-md-8 .rating-bar-wrapper {
      display: inline-block;
-     left: 114px;
+     left: 105px;
      position: absolute;
      top: -5px;
 }
@@ -457,12 +457,13 @@
          position: relative;
 }
 
-.row.rating-search-bar .col-6.col-md-4 form { height: 100%;}
+.row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
 
 .row.rating-search-bar .col-6.col-md-4 form .form-group {
      position: absolute;
      top: 11px;
-     left: 68px;
+     left: 26px;
+     width: 90%;
 }
 
 
