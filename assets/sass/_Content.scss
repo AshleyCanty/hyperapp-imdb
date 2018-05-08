@@ -226,8 +226,16 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
+     .container div.col-12.col-md-8 .rating-bar-wrapper {
+          float: right;
+     }
+
+     .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+          float: left;
+     }
+
      .container .col-6.col-md-4 form {
-          top: 70%;
+          top: 63%;
      }
 
      .activeli {
@@ -255,7 +263,7 @@
      }
 
      .container.searchlabels ul li {
-          margin: 0 0.3%;
+          margin: 0;
           padding: 16px 8px 33px;
           border-bottom: 2px solid #dadada;
           transition: border-color .4s ease-in-out;;
@@ -437,6 +445,10 @@
           // background: #d7f7fe;
           //blue 3rd
           background: white;
+     }
+
+     .container .col-6.col-md-4 form {
+          top: 63%;
      }
      .searchbar {
           max-width: 694px;
