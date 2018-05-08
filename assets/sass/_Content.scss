@@ -477,11 +477,12 @@
           .row.rating-search-bar .col-12.col-md-8 .iconwrap {
                display: inline-block;
                width: fit-content;
-               // float: left;
+               float: left;
           }
 
           .container div.col-12.col-md-8 .rating-bar-wrapper {
                display: inline-block;
+               float: right;
           }
 
           .container .row.rating-search-bar {
