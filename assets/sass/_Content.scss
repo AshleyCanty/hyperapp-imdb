@@ -583,12 +583,33 @@
           padding-top: 18px;
           padding-right: 0px;
      }
+
+     .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+          margin-left: 22px;
+     }
+
      .container div.col-12.col-md-8 .rating-bar-wrapper{
-          width: 554px;
+          width: 555px;
      }
 
      .row.rating-search-bar .col-12.col-md-8 .rating-bar .filler-bar.inner {
           width: 100%;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form {
+          margin-top: 16px;
+
+     }
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          height: fit-content;
+          width: 315px;
+          padding-right: 10px;
+          margin-bottom: 0rem;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form input {
+          width: 290px;
+          margin-left: 0;
      }
 }
 
