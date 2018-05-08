@@ -221,6 +221,32 @@
            transform: scale(1);
        }
      }
+
+     .container div.col-12.col-md-8 {
+          position: relative;
+     }
+
+     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+          display: inline-block;
+     }
+
+     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
+          display: inline-block;
+          position: absolute;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+              position: relative;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
+
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          position: absolute;
+          width: 87%;
+          top: 11px;
+     }
+
  }
 
 // Medium devices (tablets, 768px and up)
@@ -685,6 +711,47 @@
                }
           }
      }
+
+
+
+     .container div.col-12.col-md-8 {
+          position: relative;
+     }
+
+     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+          display: inline-block;
+          left: 28px;
+          top: 20px;
+     }
+
+     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
+          display: inline-block;
+          left: 136px;
+          position: absolute;
+          top: -5px;
+     }
+
+     .row.rating-search-bar .col-12.col-md-8 .rating-bar {
+          width: 95%;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+              position: relative;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
+
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          position: absolute;
+          top: -1.9px;
+          left: 26px;
+          width: 92%;
+     }
+
+
+
+
+
 }
 
 .btn {
@@ -884,7 +951,6 @@ font-size: 20px;
                     transform: scale(-1,1);
                }
                input{
-                    width: 90%;
                     padding: 5px 15px;
                     background-color: #f3f3f3;
                     display: inline-block;
