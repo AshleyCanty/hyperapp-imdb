@@ -3,7 +3,6 @@
 
 .col-md-12 {
      padding: 0 !important;
-     background: red;
 }
 
 // Small Devices (phones)
@@ -579,7 +578,6 @@ a.dropdown-item {
  // Extra large devices (large desktops, 1200px and up)
  @media (min-width: 1200px){
       html , body, .container {
-           background: red;
 
            .navbar.navbar-expand-md .collapse .navbar-nav li {
                      margin-right: 100px;
