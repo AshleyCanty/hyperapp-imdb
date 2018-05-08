@@ -449,6 +449,9 @@
 
      .container .col-6.col-md-4 form {
           top: 63%;
+          width: 99%;
+          transform: translateY(-50%);
+          margin-top: 3px;
      }
      .searchbar {
           max-width: 694px;
@@ -489,16 +492,6 @@
                margin-right: 30px;
           }
 
-          .col-6.col-md-4 {
-
-               form {
-                    width: 99%;
-                    top: 49%;
-                    transform: translateY(-50%);
-                    margin-top: 3px;
-
-               }
-          }
           .container .container div.col-12.col-md-8 .rating-bar-wrapper {
                float: right;
           }
