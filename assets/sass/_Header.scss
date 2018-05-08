@@ -1,5 +1,10 @@
 @import "variables";
 
+
+.col-md-12 {
+     padding: 0 !important;    
+}
+
 // Small Devices (phones)
 @media (max-width: 767px) {
      .navbar-dark .navbar-nav .nav-link {
