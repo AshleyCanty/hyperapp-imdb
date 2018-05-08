@@ -435,6 +435,35 @@
        }
      }
 
+
+     .container div.col-12.col-md-8 {
+          position: relative;
+     }
+
+     .container .row.rating-search-bar .col-12.col-md-8 .iconwrap {
+          display: inline-block;
+     }
+
+     .container .container div.col-12.col-md-8 .rating-bar-wrapper {
+          display: inline-block;
+          position: absolute;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+              position: relative;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form { height: 100%; width: 100%}
+
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          position: absolute;
+          width: 87%;
+          top: 11px;
+          left: 27px;
+     }
+
+
+
  }
 
 // Large devices (desktops, 992px and up)
@@ -525,6 +554,9 @@
                }
           }
      }
+
+
+
 
      .container div.col-12.col-md-8 {
           position: relative;
