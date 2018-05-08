@@ -41,6 +41,10 @@
      .jumbotron {
           height: 700px;
 
+          .col-md-12 {
+               padding: 0 !important
+          }
+
           .hero {
                top: 24%;
                margin: 0 auto;
