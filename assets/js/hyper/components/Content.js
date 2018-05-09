@@ -53,7 +53,10 @@ export default function Content({state, actions}) {
                                    <div class="rating-bar">
                                         <div class="circle a"></div>
                                         <div class="circle b"></div>
-                                        <span id="rate">6.8</span>
+                                        <div id="ratewrap">
+                                             <span id="rate">6.8</span>
+                                             <div id="point"></div>
+                                        </div>
                                         <div class="filler-bar inner"></div>
                                         <div class="filler-bar fill"></div>
                                    </div>

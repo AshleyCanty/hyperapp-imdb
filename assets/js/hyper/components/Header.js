@@ -7,7 +7,7 @@ export default function Header({state, actions}) {
                <div class="jain-container">
                     <div class="jumbotron">
                          <nav class="navbar navbar-expand-md  navbar-dark ">
-                              <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/New-imdb-logo.png/640px-New-imdb-logo.png" /></a>
+                              <a class="navbar-brand" href="#"><img src="http://www.razmag.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-15-at-09.17.42.png" /></a>
                               <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                    <span class="navbar-toggler-icon"></span>
                               </button>

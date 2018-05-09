@@ -7,6 +7,12 @@
 
 // Small Devices (phones)
 @media (max-width: 767px) {
+
+     .navbar-brand {
+          img {
+              width: 90px !important;
+          }
+     }
      .navbar-dark .navbar-nav .nav-link {
           color: $greySemi !important;
      }
@@ -24,6 +30,12 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+
+     .navbar-brand {
+          img {
+              width: 150px;
+          }
+     }
      .navbar-expand-md{
           background: rgba(0,0,0,.0);
      }
@@ -60,12 +72,6 @@
      margin: 0 auto;
      text-align: center;
      z-index: 9999;
-
-     .navbar-brand {
-          img {
-              width: 90px;
-          }
-     }
 
      li {
 
@@ -577,6 +583,7 @@ a.dropdown-item {
 
  // Extra large devices (large desktops, 1200px and up)
  @media (min-width: 1200px){
+
       html , body, .container {
 
            .navbar.navbar-expand-md .collapse .navbar-nav li {
@@ -622,4 +629,6 @@ a.dropdown-item {
   &:hover:before {
     transform:  scaleX(1);
   }
+
+
 }

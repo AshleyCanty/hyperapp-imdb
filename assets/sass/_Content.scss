@@ -1,7 +1,7 @@
 @import "variables";
 
 .app, .container.content  {
-     min-width: 435px;
+     min-width: 400px;
      background: #f3f3f3;
 }
 .container.content , .container.allcontent, .container.searchbar, .container.searchlabels{
@@ -34,7 +34,12 @@
           }
 
           .row.rating-search-bar .col-12.col-md-8 .rating-bar #rate {
-               left: 66%;
+               left: 67.5%;
+          }
+
+          #point {
+                left: 186px;
+
           }
 
           .row.rating-search-bar .icon:nth-child(1) {
@@ -144,9 +149,7 @@
                                              width: 0;
                                              font-size: 14px;
                                              transition: background-color .4s ease-in-out;
-
                                         }
-
                                    }
                                    &:nth-last-child(1) {
 
@@ -166,18 +169,13 @@
                                              vertical-align: middle;
 
                                              .icon, span {
-                                                  // vertical-align: middle;
                                                   padding-right: 10px;
-                                                  // line-height: 50px;
                                              }
                                         }
                                    }
                               }
                          }
                     }
-
-                    //search here
-
                }
           }
 
@@ -188,11 +186,12 @@
                top: 480px !important;
 
                .card {
-                    width: 432px;
-                    margin: 5px 8px;
+
+                    width: 23rem;
+                    margin: 7px auto;
 
                     img {
-                         width: auto;
+                         width: 100%;
                          height: 600px;
 
                     }
@@ -222,24 +221,63 @@
        }
      }
 
+     .jumbotron .container.hero {
+          padding-left: 15px !important;
+
+          .row .col-md-12 {
+
+          }
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          width: 365px;
+          margin: 0 auto;
+          padding: 0;
+
+          .ion-ios-search-strong {
+               // position: absolute;
+               display: inline-block;
+               float: right;
+               width: fit-content;
+               font-size: 22px;
+               color: rgba(0,0,0,0.2);
+               transform: scale(-1,1);
+          }
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form input {
+          background: red;
+          width: 95% !important;
+          margin: 0 auto;
+          padding: 0;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form {
+          margin-top: 28px;
+          margin: 0 auto;
+          padding: 0;
+
+
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+          margin-left: -2px;
+          margin: 0 auto;
+          padding: 0;
+     }
+
+     .container div.rating-bar-wrapper {
+          width: 280px;
+     }
 
  }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-
-     // .container div.col-12.col-md-8 .rating-bar-wrapper {
-     //      float: right;
-     // }
-     //
-     // .row.rating-search-bar .col-12.col-md-8 .iconwrap {
-     //      float: left;
-     // }
-
      .activeli {
           background: #f3f3f3 !important;
-          border-bottom: 2px solid $yellowMain !important;
+          border-bottom: 1px solid $yellowMain !important;
      }
 
      html , body, .container  {
@@ -264,11 +302,11 @@
      .container.searchlabels ul li {
           margin: 0;
           padding: 16px 8px 33px;
-          border-bottom: 2px solid #dadada;
+          border-bottom: 1px solid #dadada;
           transition: border-color .4s ease-in-out;;
 
           &:hover {
-               border-bottom: 2px solid $yellowMain;
+               border-bottom: 1px solid $yellowMain;
                background-color: #dadada;
           }
 
@@ -279,10 +317,10 @@
 
           &:nth-last-child(1) {
                padding: 16px 8px 24px;
-               border-bottom: 2px solid transparent;
+               border-bottom: 1px solid transparent;
                transition: border .4s ease-in-out;
                &:hover{
-                    border-bottom: 2px solid $yellowMain;
+                    border-bottom: 1px solid $yellowMain;
                     background: #f3f3f3;
                }
                .btn {
@@ -331,6 +369,9 @@
                     #rate {
                          left: 68%;
                     }
+                    #point {
+                         left: 207.46px;
+                    }
                }
 
                .icon:nth-child(1) {
@@ -343,19 +384,17 @@
 
           .col-6.col-md-4 {
                padding-left: 0;
-
-
           }
 
           .searchlabels ul {
                padding-bottom: 35px;
-               border-bottom: 2px solid #dadada;
+               border-bottom: 1px solid #dadada;
           }
           .searchlabels ul li {
 
                &:hover {
                     background: #F3F3F3;
-                    border-bottom: 2px solid $yellowMain;
+                    border-bottom: 1px solid $yellowMain;
                }
 
                &:nth-child(1){
@@ -441,7 +480,6 @@
 
 
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          background: green;
           width: 207px;
      }
 
@@ -454,7 +492,6 @@
      }
 
      .row.rating-search-bar .col-6.col-md-4 {
-          background: pink;
           margin-left: -2px;
      }
 
@@ -512,6 +549,10 @@
           div.col-12.col-md-8 .rating-bar-wrapper #rate {
                left: 65%;
           }
+          div.col-12.col-md-8 .rating-bar-wrapper #point {
+               left: 287.41px;
+          }
+
 
           .content {
                .card {
@@ -526,7 +567,6 @@
 
 
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          background: blue;
           width: 300px;
      }
 
@@ -601,6 +641,9 @@
                #rate {
                     left: 64%;
                }
+                #point {
+                     left: 352px;
+                }
           }
      }
      .row.rating-search-bar {
@@ -651,7 +694,6 @@
 
      }
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
-          background: red;
           height: fit-content;
           width: 331px;
           padding-right: 10px;
@@ -681,7 +723,11 @@
      .icon {
           display: inline-block;
           color: white;
-          margin-right: 25px;
+          margin-right: 16px;
+     }
+
+     span {
+          font-weight: 500;
      }
 }
 
@@ -806,28 +852,44 @@ font-size: 20px;
                     }
 
                     #rate {
+                         color: $greySemi;
                          z-index: 250;
                          font-size: 14px;
-                         font-weight: 600;
+                         font-weight: 400;
                          position: absolute;
-                         top: 9px;
+                         top: 10px;
                          padding: 3px 7px;
                          background: white;
                          border-radius: 3px;
-                         box-shadow: 0px 0px 10px 0px rgba(0,0,0,.3);
+                         box-shadow: 0px 0px 10px 0px rgba(0,0,0,.1);
                     }
+
+                     #ratewrap {
+                          height: auto;
+                          width: auto;
+                          #point {
+                               position: absolute;
+                               height: 6px;
+                               width: 6px;
+                               background: red;
+                               z-index: 9999;
+                               top: 22px;
+                               background: white;
+                               border-radius: 50%;
+                          }
+                     }
 
                     .filler-bar.inner  {
                          z-index: 230;
                          position: absolute;
                          top: 24px;
-                         height: 2px;
+                         height: 1px;
                          background: rgba(0,0,0,.1);
                          width: 100%;
                     }
 
                     .filler-bar.fill {
-                         height: 2px;
+                         height: 1px;
                          background: $yellowMain;
                          width: 60%;
                          position: absolute;
@@ -845,7 +907,7 @@ font-size: 20px;
                background-color: #f3f3f3;
 
                .form-group {
-                    border-bottom: 2px solid rgba(0,0,0,.1);
+                    border-bottom: 1px solid rgba(0,0,0,.1);
                }
 
                .ion-ios-search-strong {

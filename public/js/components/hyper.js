@@ -232,9 +232,14 @@ function Content(_ref) {
                                    (0, _hyperapp.h)("div", { "class": "circle a" }),
                                    (0, _hyperapp.h)("div", { "class": "circle b" }),
                                    (0, _hyperapp.h)(
-                                        "span",
-                                        { id: "rate" },
-                                        "6.8"
+                                        "div",
+                                        { id: "ratewrap" },
+                                        (0, _hyperapp.h)(
+                                             "span",
+                                             { id: "rate" },
+                                             "6.8"
+                                        ),
+                                        (0, _hyperapp.h)("div", { id: "point" })
                                    ),
                                    (0, _hyperapp.h)("div", { "class": "filler-bar inner" }),
                                    (0, _hyperapp.h)("div", { "class": "filler-bar fill" })
@@ -751,7 +756,7 @@ function Header(_ref) {
                          (0, _hyperapp.h)(
                               "a",
                               { "class": "navbar-brand", href: "#" },
-                              (0, _hyperapp.h)("img", { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/New-imdb-logo.png/640px-New-imdb-logo.png" })
+                              (0, _hyperapp.h)("img", { src: "http://www.razmag.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-15-at-09.17.42.png" })
                          ),
                          (0, _hyperapp.h)(
                               "button",
