@@ -278,7 +278,11 @@
           }
 
           &:nth-last-child(1) {
+               padding: 16px 8px 24px;
+               border-bottom: 2px solid transparent;
+               transition: border .4s ease-in-out;
                &:hover{
+                    border-bottom: 2px solid $yellowMain;
                     background: #f3f3f3;
                }
                .btn {
@@ -434,6 +438,13 @@
      .container div.col-12.col-md-8 .rating-bar-wrapper {
           width: 310px;
      }
+
+
+     .row.rating-search-bar .col-6.col-md-4 form .form-group {
+          background: green;
+          width: 207px;
+     }
+
      .row.rating-search-bar .col-6.col-md-4 form input {
           width: 188px;
      }
@@ -444,6 +455,7 @@
 
      .row.rating-search-bar .col-6.col-md-4 {
           background: pink;
+          margin-left: -2px;
      }
 
  }
@@ -515,6 +527,7 @@
 
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
           background: blue;
+          width: 300px;
      }
 
      .container div.col-12.col-md-8 .rating-bar-wrapper {
@@ -640,7 +653,7 @@
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
           background: red;
           height: fit-content;
-          width: 315px;
+          width: 331px;
           padding-right: 10px;
           margin-bottom: 0rem;
      }
