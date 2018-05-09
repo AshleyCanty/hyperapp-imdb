@@ -430,6 +430,22 @@
            box-shadow: 0px 10px 60px 10px rgba(0,0,0,.3);
        }
      }
+
+     .container div.col-12.col-md-8 .rating-bar-wrapper {
+          width: 310px;
+     }
+     .row.rating-search-bar .col-6.col-md-4 form input {
+          width: 188px;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 form {
+          margin-top: 28px;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+          background: pink;
+     }
+
  }
 
 // Large devices (desktops, 992px and up)
@@ -500,11 +516,20 @@
      .row.rating-search-bar .col-6.col-md-4 form .form-group {
           background: blue;
      }
+
+     .container div.col-12.col-md-8 .rating-bar-wrapper {
+          width: 447px;
+     }
+
      .row.rating-search-bar .col-6.col-md-4 form{
           margin-top: 30px;
      }
      .row.rating-search-bar .col-6.col-md-4 form input {
-          width: 268px;
+          width: 250px;
+     }
+
+     .row.rating-search-bar .col-6.col-md-4 {
+          margin-left: -15px;
      }
 
 }
