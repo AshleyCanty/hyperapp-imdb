@@ -1,7 +1,6 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) {
      .container {
-     background: teal;
      }
      .navbar.navbar-expand-md {
           z-index: 99999;
@@ -59,7 +58,7 @@
         }
         .jumbotron .container.hero .row:nth-child(2) {
              padding: 0 !important;
-             margin-top: 0px;
+             margin-top: 10px;
         }
 
         .jumbotron .display-4 {
@@ -95,7 +94,6 @@
 
 
      .jumbotron {
-          background-color: teal;
           height: 700px;
 
           .col-md-12 {
