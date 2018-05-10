@@ -19,7 +19,7 @@
           min-width: 480px;
 
           .display-4 {
-               font-weight: 500;
+               font-weight: 700 !important;
           }
 
           .container {
@@ -58,7 +58,7 @@
         }
         .jumbotron .container.hero .row:nth-child(2) {
              padding: 0 !important;
-             margin-top: 10px;
+             margin-top: 0rem;
         }
 
         .jumbotron .display-4 {
