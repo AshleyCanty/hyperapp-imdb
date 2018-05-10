@@ -268,7 +268,7 @@ function Content(_ref) {
                (0, _hyperapp.h)(
                     "div",
                     { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://www.siamzone.com/movie/pic/2018/blackpanther/poster1.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://filmwonk.files.wordpress.com/2016/01/mad-max-fury-road-poster2.jpg", alt: "Card image cap" }),
                     (0, _hyperapp.h)(
                          "div",
                          { "class": "card-body" },
@@ -310,7 +310,7 @@ function Content(_ref) {
                (0, _hyperapp.h)(
                     "div",
                     { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://image.phimmoi.net/film/4032/poster.medium.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://i.pinimg.com/736x/a8/fc/af/a8fcaf6b1f21a0cc1bd3483f332af28e--hunger-games-mockingjay-the-hunger-games.jpg", alt: "Card image cap" }),
                     (0, _hyperapp.h)(
                          "div",
                          { "class": "card-body" },
@@ -352,7 +352,7 @@ function Content(_ref) {
                (0, _hyperapp.h)(
                     "div",
                     { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://hannibalclassics.com/wp-content/uploads/2017/04/setup-5c.jpeg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://www.bleedingcool.com/wp-content/uploads/2018/04/avengers-infinity-war-poster-6.jpg", alt: "Card image cap" }),
                     (0, _hyperapp.h)(
                          "div",
                          { "class": "card-body" },
@@ -394,7 +394,7 @@ function Content(_ref) {
                (0, _hyperapp.h)(
                     "div",
                     { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://image.phimmoi.net/film/4032/poster.medium.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://www.impawards.com/2015/posters/insurgent_ver13_xlg.jpg", alt: "Card image cap" }),
                     (0, _hyperapp.h)(
                          "div",
                          { "class": "card-body" },
@@ -436,49 +436,7 @@ function Content(_ref) {
                (0, _hyperapp.h)(
                     "div",
                     { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://is1.mzstatic.com/image/thumb/Video128/v4/c4/ae/59/c4ae5927-bca9-e6e6-9b09-88f0eea4867c/source/1200x630bb.jpg", alt: "Card image cap" }),
-                    (0, _hyperapp.h)(
-                         "div",
-                         { "class": "card-body" },
-                         (0, _hyperapp.h)(
-                              "h5",
-                              { "class": "card-title" },
-                              "Resident Evil"
-                         ),
-                         (0, _hyperapp.h)(
-                              "h6",
-                              { "class": "card-subtitle mb-2 text-muted" },
-                              "Horror, Sci-fi, Action"
-                         ),
-                         (0, _hyperapp.h)(
-                              "div",
-                              { "class": "rating" },
-                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
-                              (0, _hyperapp.h)(
-                                   "h5",
-                                   { id: "numberRating" },
-                                   "6.8"
-                              )
-                         ),
-                         (0, _hyperapp.h)(
-                              "a",
-                              { href: "#", "class": "" },
-                              (0, _hyperapp.h)(
-                                   "div",
-                                   { id: "corner-triangle" },
-                                   (0, _hyperapp.h)(
-                                        "span",
-                                        { "class": "triangle-text" },
-                                        "+"
-                                   )
-                              )
-                         )
-                    )
-               ),
-               (0, _hyperapp.h)(
-                    "div",
-                    { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://media.comicbook.com/2017/10/venom-default-1027837.jpg", alt: "Card image cap" }),
+                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://www.reellifewithjane.com/wp-content/uploads/2015/09/Everest-Poster.jpg", alt: "Card image cap" }),
                     (0, _hyperapp.h)(
                          "div",
                          { "class": "card-body" },
@@ -521,90 +479,6 @@ function Content(_ref) {
                     "div",
                     { "class": "card" },
                     (0, _hyperapp.h)("img", { "class": "card-img-top", src: "https://static.posters.cz/image/750/plakaty/blade-runner-2049-fire-ice-i50059.jpg", alt: "Card image cap" }),
-                    (0, _hyperapp.h)(
-                         "div",
-                         { "class": "card-body" },
-                         (0, _hyperapp.h)(
-                              "h5",
-                              { "class": "card-title" },
-                              "Resident Evil"
-                         ),
-                         (0, _hyperapp.h)(
-                              "h6",
-                              { "class": "card-subtitle mb-2 text-muted" },
-                              "Horror, Sci-fi, Action"
-                         ),
-                         (0, _hyperapp.h)(
-                              "div",
-                              { "class": "rating" },
-                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
-                              (0, _hyperapp.h)(
-                                   "h5",
-                                   { id: "numberRating" },
-                                   "6.8"
-                              )
-                         ),
-                         (0, _hyperapp.h)(
-                              "a",
-                              { href: "#", "class": "" },
-                              (0, _hyperapp.h)(
-                                   "div",
-                                   { id: "corner-triangle" },
-                                   (0, _hyperapp.h)(
-                                        "span",
-                                        { "class": "triangle-text" },
-                                        "+"
-                                   )
-                              )
-                         )
-                    )
-               ),
-               (0, _hyperapp.h)(
-                    "div",
-                    { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://digitalspyuk.cdnds.net/17/12/480x711/guardians-2-poster.jpg", alt: "Card image cap" }),
-                    (0, _hyperapp.h)(
-                         "div",
-                         { "class": "card-body" },
-                         (0, _hyperapp.h)(
-                              "h5",
-                              { "class": "card-title" },
-                              "Resident Evil"
-                         ),
-                         (0, _hyperapp.h)(
-                              "h6",
-                              { "class": "card-subtitle mb-2 text-muted" },
-                              "Horror, Sci-fi, Action"
-                         ),
-                         (0, _hyperapp.h)(
-                              "div",
-                              { "class": "rating" },
-                              (0, _hyperapp.h)("div", { "class": "ion-ios-heart" }),
-                              (0, _hyperapp.h)(
-                                   "h5",
-                                   { id: "numberRating" },
-                                   "6.8"
-                              )
-                         ),
-                         (0, _hyperapp.h)(
-                              "a",
-                              { href: "#", "class": "" },
-                              (0, _hyperapp.h)(
-                                   "div",
-                                   { id: "corner-triangle" },
-                                   (0, _hyperapp.h)(
-                                        "span",
-                                        { "class": "triangle-text" },
-                                        "+"
-                                   )
-                              )
-                         )
-                    )
-               ),
-               (0, _hyperapp.h)(
-                    "div",
-                    { "class": "card" },
-                    (0, _hyperapp.h)("img", { "class": "card-img-top", src: "http://image.phimmoi.net/film/4032/poster.medium.jpg", alt: "Card image cap" }),
                     (0, _hyperapp.h)(
                          "div",
                          { "class": "card-body" },
@@ -851,7 +725,11 @@ function Header(_ref) {
                                                        null,
                                                        "Watch Trailer"
                                                   ),
-                                                  (0, _hyperapp.h)("div", { "class": "ion-android-arrow-dropright-circle" })
+                                                  (0, _hyperapp.h)(
+                                                       "div",
+                                                       { id: "circlewrap" },
+                                                       (0, _hyperapp.h)("div", { "class": "ion-ios-play" })
+                                                  )
                                              )
                                         )
                                    )

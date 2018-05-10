@@ -3,7 +3,6 @@
      .container {
      background: teal;
      }
-
      .navbar.navbar-expand-md {
           z-index: 99999;
           ul li a {
@@ -18,7 +17,7 @@
      .jumbotron {
           z-index: 1;
           height: 650px;
-          min-width: 490px;
+          min-width: 480px;
 
           .display-4 {
                font-weight: 500;
@@ -52,15 +51,47 @@
         .container.allcontent .searchbar .searchlabels ul li {
              font-size: .9rem;
         }
+
+        .jumbotron .container.hero .row:nth-child(1) {
+             padding: 0 !important;
+             margin-top: 0px;
+             width: 330px;
+        }
+        .jumbotron .container.hero .row:nth-child(2) {
+             padding: 0 !important;
+             margin-top: 0px;
+        }
+
+        .jumbotron .display-4 {
+             margin-bottom: 0;
+        }
+
+        .col-md-12 a .btn-wrap {
+           margin-top: 15px;
+           width: 180px;
+           height: 43px;
+           span {
+                font-size: 14px;
+           }
+        }
+
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-     .col-md-12 {
-          padding: 0 !important
+     .jumbotron .container.hero .row:nth-child(1) {
+          padding: 0 !important;
+          margin-top: 90px;
      }
+     .jumbotron .container.hero .row:nth-child(2) {
+          padding: 0 !important;
+          margin-top: -5px;
 
+          .releaseDate {
+               font-size: 18px;
+          }
+     }
 
 
      .jumbotron {
@@ -86,7 +117,7 @@
 
            .display-4 {
                font-weight: 800;
-               font-size: 4rem;
+               font-size: 3.2rem !important;
           }
 
           #location.releaseDate {
@@ -113,7 +144,22 @@
           }
      }
 
+     .jumbotron .display-4 {
+          margin-bottom: 0;
+     }
 
+     .col-md-12 a .btn-wrap {
+        margin-top: 15px;
+        width: 180px;
+        height: 43px;
+        span {
+             font-size: 14px;
+        }
+     }
+
+     .jumbotron .label {
+          margin-top: 0px;
+     }
 }
 
 // Large devices (desktops, 992px and up)
@@ -131,6 +177,25 @@
           // margin-left: 130px;
      }
 
+     .jumbotron .container.hero .row:nth-child(1) {
+          padding: 0 !important;
+          margin-top: -100px;
+     }
+     .jumbotron .container.hero .row:nth-child(2) {
+          padding: 0 !important;
+          margin-top: 120px;
+     }
+
+     .col-md-12 a .btn-wrap {
+          margin-top: 50px;
+          width:200px;
+          height:53px;
+     }
+
+     // .jumbotron .label {
+     //      margin-top: px;
+     // }
+
      #location.releaseDate {
           margin-top: 175px;
      }
@@ -138,7 +203,6 @@
      div.container.hero div.row{
           margin-left: 1%;
      }
-
  }
 
 
@@ -149,9 +213,6 @@
           position: relative;
 
      }
-
-
-
  }
 
 
@@ -295,10 +356,7 @@
      a {
 
           .btn-wrap{
-               margin-top: 50px;
                background: $yellowMain;
-               width:200px;
-               height:53px;
                border-radius:30px;
 
                &:hover {
@@ -329,16 +387,33 @@
 
 
                     }
-                    .ion-android-arrow-dropright-circle {
-                         display: inline-block;
-                         font-size: 32px;
-                         color: black;
-                         vertical-align:middle;
-                         margin-left: 20px;
 
-                    }
                }
 
           }
+     }
+}
+
+#circlewrap {
+     display: inline-block;
+     height: 26px;
+     width: 26px;
+     border-radius: 50%;
+     position: relative;
+     border: 1px solid black;
+     color: black;
+     vertical-align: middle;
+     margin-left: 20px;
+.ion-ios-play {
+     position: absolute;
+     left: -25%;
+     top: 10%;
+     transform: translateX(-50%);
+     display: inline-block;
+     font-size: 19px;
+     color: black;
+     vertical-align:middle;
+     margin-left: 20px;
+
      }
 }

@@ -1,12 +1,17 @@
 @import "variables";
 
 
+
 .col-md-12 {
      padding: 0 !important;
 }
 
 // Small Devices (phones)
 @media (max-width: 767px) {
+
+     .navbar.navbar-expand-md li a.nav-link {
+          font-weight: 600;
+     }
 
      .navbar-brand {
           img {
@@ -15,6 +20,7 @@
      }
      .navbar-dark .navbar-nav .nav-link {
           color: $greySemi !important;
+
      }
 
      .navbar-expand-md .navbar-collapse.collapse li:hover {
@@ -78,7 +84,7 @@
           a.nav-link {
                text-transform: uppercase;
                transition: all .3s ease-in-out;
-               font-weight: 300;
+               font-weight: 400;
                // padding: 20px;
                margin-bottom: 0;
                font-size: 14px;
@@ -167,10 +173,7 @@ a.dropdown-item {
      a {
 
           .btn-wrap{
-               margin-top: 50px;
                background: $yellowMain;
-               width:200px;
-               height:53px;
                border-radius:30px;
 
                &:hover {
@@ -200,14 +203,6 @@ a.dropdown-item {
                          vertical-align:middle;
                     }
 
-                    .ion-android-arrow-dropright-circle {
-                         display: inline-block;
-                         font-size: 32px;
-                         color: black;
-                         vertical-align:middle;
-                         margin-left: 20px;
-
-                    }
                }
 
           }
@@ -526,7 +521,7 @@ a.dropdown-item {
      }
 
      .display-4 {
-          font-size: 70px !important;
+          font-size: 65px !important;
      }
 }
 

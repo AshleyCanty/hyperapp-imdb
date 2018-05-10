@@ -50,7 +50,10 @@ export default function Header({state, actions}) {
                                             <div class="btn-wrap">
                                                   <button id="playButton">
                                                        <span>Watch Trailer</span>
-                                                       <div class="ion-android-arrow-dropright-circle"></div>
+                                                       <div id="circlewrap">
+                                                            <div class="ion-ios-play"></div>
+                                                       </div>
+
                                                   </button>
                                              </div>
                                         </a>
