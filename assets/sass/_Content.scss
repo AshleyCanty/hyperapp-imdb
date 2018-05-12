@@ -88,7 +88,6 @@
 
                     .searchlabels {
                          width: 100%;
-                         padding: 0;
 
                          ul {
                               margin: 0 auto;
@@ -264,6 +263,10 @@
      .container div.rating-bar-wrapper {
           width: 280px;
      }
+
+     .allcontent .searchbar .searchlabels {
+          padding: 0;
+     }
  }
 
 // Medium devices (tablets, 768px and up)
@@ -279,6 +282,7 @@
           //pink 2nd
           background: white;
      }
+
      .container.content {
           padding-bottom: 0 !important;
           top:0 !important ;
@@ -481,6 +485,10 @@
           margin-left: -2px;
      }
 
+     .allcontent .searchbar .searchlabels {
+          padding: 0;
+     }
+
  }
 
 // Large devices (desktops, 992px and up)
@@ -550,6 +558,10 @@
 
      .row.rating-search-bar .col-6.col-md-4 {
           margin-left: -15px;
+     }
+
+     .allcontent .searchbar .searchlabels {
+          padding: 0;
      }
 }
 
