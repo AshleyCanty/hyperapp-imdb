@@ -1,6 +1,30 @@
 import {h, app} from 'hyperapp'
 
 export default function Content({state, actions}) {
+     var loopMovieCards = function() {
+          return state.globalState.movieCards.map(function(item){
+               return (
+                    <div class="card" >
+                         <img class="card-img-top" src={item.img} alt="Card image cap" />
+                         <div class="card-body">
+                              <h5 class="card-title">{item.title}</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">{item.genre}</h6>
+                              <div class="rating">
+                                   <div class="ion-ios-heart"></div>
+                                   <h5 id="numberRating">{item.rating}</h5>
+                              </div>
+                              <a href="#" class="">
+                                   <div id="corner-triangle">
+                                        <span class="triangle-text">+</span>
+
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+               )
+          });
+     }
+
      return (
           <div class="container allcontent">
                <div class="container searchbar">
@@ -73,113 +97,7 @@ export default function Content({state, actions}) {
                     </div>
                </div>
                <div class="container content">
-                    <div class="card" >
-                         <img class="card-img-top" src="https://filmwonk.files.wordpress.com/2016/01/mad-max-fury-road-poster2.jpg" alt="Card image cap" />
-                         <div class="card-body">
-                              <h5 class="card-title">Resident Evil</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                              <div class="rating">
-                                   <div class="ion-ios-heart"></div>
-                                   <h5 id="numberRating">6.8</h5>
-                              </div>
-                              <a href="#" class="">
-                                   <div id="corner-triangle">
-                                        <span class="triangle-text">+</span>
-
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="card" >
-                         <img class="card-img-top" src="https://i.pinimg.com/736x/a8/fc/af/a8fcaf6b1f21a0cc1bd3483f332af28e--hunger-games-mockingjay-the-hunger-games.jpg" alt="Card image cap" />
-                         <div class="card-body">
-                              <h5 class="card-title">Resident Evil</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                              <div class="rating">
-                                   <div class="ion-ios-heart"></div>
-                                   <h5 id="numberRating">6.8</h5>
-                              </div>
-                              <a href="#" class="">
-                                   <div id="corner-triangle">
-                                        <span class="triangle-text">+</span>
-
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="card">
-                         <img class="card-img-top" src="https://www.bleedingcool.com/wp-content/uploads/2018/04/avengers-infinity-war-poster-6.jpg" alt="Card image cap" />
-                         <div class="card-body">
-                              <h5 class="card-title">Resident Evil</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                              <div class="rating">
-                                   <div class="ion-ios-heart"></div>
-                                   <h5 id="numberRating">6.8</h5>
-                              </div>
-                              <a href="#" class="">
-                                   <div id="corner-triangle">
-                                        <span class="triangle-text">+</span>
-
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="card" >
-                         <img class="card-img-top" src="http://www.impawards.com/2015/posters/insurgent_ver13_xlg.jpg" alt="Card image cap" />
-                         <div class="card-body">
-                              <h5 class="card-title">Resident Evil</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                              <div class="rating">
-                                   <div class="ion-ios-heart"></div>
-                                   <h5 id="numberRating">6.8</h5>
-                              </div>
-                              <a href="#" class="">
-                                   <div id="corner-triangle">
-                                        <span class="triangle-text">+</span>
-
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="card" >
-                         <img class="card-img-top" src="http://www.reellifewithjane.com/wp-content/uploads/2015/09/Everest-Poster.jpg" alt="Card image cap" />
-                         <div class="card-body">
-                              <h5 class="card-title">Resident Evil</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                              <div class="rating">
-                                   <div class="ion-ios-heart"></div>
-                                   <h5 id="numberRating">6.8</h5>
-                              </div>
-                              <a href="#" class="">
-                                   <div id="corner-triangle">
-                                        <span class="triangle-text">+</span>
-
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
-                    <div class="card" >
-                         <img class="card-img-top" src="https://static.posters.cz/image/750/plakaty/blade-runner-2049-fire-ice-i50059.jpg" alt="Card image cap" />
-                         <div class="card-body">
-                              <h5 class="card-title">Resident Evil</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                              <div class="rating">
-                                   <div class="ion-ios-heart"></div>
-                                   <h5 id="numberRating">6.8</h5>
-                              </div>
-                              <a href="#" class="">
-                                   <div id="corner-triangle">
-                                        <span class="triangle-text">+</span>
-
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
+                    {loopMovieCards()}
                </div>
                <div class="container bottom">
                     <div class="ion-load-a"></div>
