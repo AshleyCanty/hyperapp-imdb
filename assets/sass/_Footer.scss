@@ -34,8 +34,15 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) {
      .jain-container.footer {
+          width: 100%;
           background: white;
-     }
+          color: #bbbbbb;
+          height: 115px;
+          padding: 30px 0 5px;
+
+          .row {
+               width: 100%;
+          }
 
      div.col-sm-4 {
           width: 33.33333%;
