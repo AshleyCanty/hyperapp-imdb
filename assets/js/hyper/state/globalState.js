@@ -7,7 +7,7 @@ var movieCards = [
      },
      {
           img: 'https://i.pinimg.com/736x/a8/fc/af/a8fcaf6b1f21a0cc1bd3483f332af28e--hunger-games-mockingjay-the-hunger-games.jpg',
-          title: 'The Hunger Games: Mockingjay I',
+          title: 'The Hunger Games: Mo...',
           genre: ['Sci-fi', 'Action', 'Adventure'],
           rating: 9.2
      },
@@ -27,7 +27,7 @@ var movieCards = [
           img: 'http://www.reellifewithjane.com/wp-content/uploads/2015/09/Everest-Poster.jpg',
           title: 'Everest',
           genre: ['Drama/Disaster', 'Adventure','Action'],
-          rating: 8.0
+          rating: 8.1
      },
      {
           img: 'https://static.posters.cz/image/750/plakaty/blade-runner-2049-fire-ice-i50059.jpg',

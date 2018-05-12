@@ -187,12 +187,10 @@
                top: 480px !important;
 
                .card {
-
-                    // width: 23rem;
                     margin: 7px auto;
 
                     img {
-                         width: 100%;
+
                          height: 600px;
 
                     }
@@ -421,14 +419,6 @@
           .content {
                position: inherit;
                top: -45px;
-
-               .card {
-                    // width: 21rem;
-                    img {
-                         // width: 21rem;
-                         // height: 400px;
-                    }
-               }
           }
      }
 
@@ -540,17 +530,6 @@
           div.col-12.col-md-8 .rating-bar-wrapper #point {
                left: 287.41px;
           }
-
-
-          .content {
-               .card {
-                    // width: 21rem;
-                    img {
-                         // width: 21rem;
-                         // height: 400px;
-                    }
-               }
-          }
      }
 
 
@@ -642,23 +621,6 @@
           }
      }
 
-     .container div.col-6.col-md-4 {
-          // margin-left: -1px;
-          // padding-right: 43px;
-          // width: 98%;
-     }
-
-     .container {
-          .content {
-               .card {
-                    // width: 20rem;
-                    img {
-                         // width: 100%;
-                         // height: 400px;
-                    }
-               }
-          }
-     }
      .container div.col-12.col-md-8  {
           padding-top: 18px;
           padding-right: 0px;
@@ -948,18 +910,14 @@ div.container.bottom {
      border-radius: none !important;
 
      &:hover {
-          // transform: scale(1.1);
           cursor: pointer;
           z-index: 99999;
      }
 
      img {
-          height: 475px !important;
+          height: 495px !important;
           width: 100%;
           object-fit: cover;
-          // border-top-left-radius: 1px;
-          // border-top-right-radius: 1px;
-          // border-radius: 3px 3px 0px 0px;
      }
 
      .card-body {

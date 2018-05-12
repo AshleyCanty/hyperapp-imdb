@@ -2,7 +2,7 @@ import {h, app} from 'hyperapp'
 
 export default function Footer({state, actions}) {
      return (
-          <div class="container footer">
+          <div class="jain-container footer">
                <div class="row top">
                     <div class="col-sm-4 f">
                          <h5 id="brand">IMDb</h5>
