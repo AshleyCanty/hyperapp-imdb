@@ -19,13 +19,11 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-
      <div class="lg-container">
-
           <div class="jain-container">
                <div class="jumbotron">
                     <nav class="navbar navbar-expand-md  navbar-dark ">
-                         <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/New-imdb-logo.png/640px-New-imdb-logo.png" /></a>
+                         <a class="navbar-brand" href="#"><img src="http://www.razmag.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-15-at-09.17.42.png" /></a>
                          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
                          </button>
@@ -68,7 +66,10 @@
                                        <div class="btn-wrap">
                                              <button id="playButton">
                                                   <span>Watch Trailer</span>
-                                                  <div class="ion-android-arrow-dropright-circle"></div>
+                                                  <div id="circlewrap">
+                                                       <div class="ion-ios-play"></div>
+                                                  </div>
+
                                              </button>
                                         </div>
                                    </a>
@@ -85,9 +86,14 @@
                     <div class="row hero-2">
                     </div>
                 </div>
-           </div>
+          </div>
      </div>
+     <!-- header Ends -->
 
+
+
+
+     <!-- content Begins -->
      <div class="container allcontent">
           <div class="container searchbar">
                <div class="container searchlabels">
@@ -130,16 +136,19 @@
                </div>
                <div class="row rating-search-bar">
                     <div class="col-12 col-md-8">
-                         <div class='iconwrap' style='display: inline-block'>
+                         <div class='iconwrap' style={{display: 'inline-block'}}>
                               <div class="ion-navicon-round icon"></div>
                               <div class="ion-grid icon"></div>
                          </div>
-                         <div class="rating-bar-wrapper" style='display: inline-block'>
+                         <div class="rating-bar-wrapper" style={{display: 'inline-block'}}>
                               <h5>IMDb Rating</h5>
                               <div class="rating-bar">
                                    <div class="circle a"></div>
                                    <div class="circle b"></div>
-                                   <span id="rate">6.8</span>
+                                   <div id="ratewrap">
+                                        <span id="rate">6.8</span>
+                                        <div id="point"></div>
+                                   </div>
                                    <div class="filler-bar inner"></div>
                                    <div class="filler-bar fill"></div>
                               </div>
@@ -149,7 +158,7 @@
                          <form>
                               <div class="form-group">
                                    <a href="#" class="ion-ios-search-strong"></a>
-                                   <input type="text" class="form-control searchline"></input>
+                                   <input type="text" class="form-control"></input>
                               </div>
                          </form>
                     </div>
@@ -227,48 +236,17 @@
                          </a>
                     </div>
                </div>
-
-               <div class="card" >
-                    <img class="card-img-top" src="http://www.reellifewithjane.com/wp-content/uploads/2015/09/Everest-Poster.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                         <h5 class="card-title">Resident Evil</h5>
-                         <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                         <div class="rating">
-                              <div class="ion-ios-heart"></div>
-                              <h5 id="numberRating">6.8</h5>
-                         </div>
-                         <a href="#" class="">
-                              <div id="corner-triangle">
-                                   <span class="triangle-text">+</span>
-
-                              </div>
-                         </a>
-                    </div>
-               </div>
-
-               <div class="card" >
-                    <img class="card-img-top" src="https://static.posters.cz/image/750/plakaty/blade-runner-2049-fire-ice-i50059.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                         <h5 class="card-title">Resident Evil</h5>
-                         <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
-                         <div class="rating">
-                              <div class="ion-ios-heart"></div>
-                              <h5 id="numberRating">6.8</h5>
-                         </div>
-                         <a href="#" class="">
-                              <div id="corner-triangle">
-                                   <span class="triangle-text">+</span>
-
-                              </div>
-                         </a>
-                    </div>
-               </div>
           </div>
           <div class="container bottom">
                <div class="ion-load-a"></div>
           </div>
      </div>
+     <!-- content Ends -->
 
+
+
+
+     <!-- footer Begins -->
      <div class="container footer">
           <div class="row top">
                <div class="col-sm-4 f">
@@ -292,6 +270,7 @@
                </div>
           </div>
      </div>
+
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TimelineMax.min.js"></script> -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
