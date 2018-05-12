@@ -6,6 +6,9 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 551px) {
+     .jain-container.footer {
+          background: white;
+     }
 
      div.col-sm-4 {
           width: 100% !important;
@@ -30,6 +33,9 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) {
+     .jain-container.footer {
+          background: white;
+     }
 
      div.col-sm-4 {
           width: 33.33333%;

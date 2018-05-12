@@ -760,6 +760,7 @@ font-size: 20px;
           .col-12.col-md-8{
 
                .iconwrap {
+                    display: inline-block;
                     position: inherit;
                     vertical-align: middle;
                     top: 50%;
@@ -772,6 +773,10 @@ font-size: 20px;
                     font-size: 15px;
                     color: $greySemi;
 
+               }
+
+               .rating-bar-wrapper {
+                    display: inline-block;
                }
 
 
