@@ -27,8 +27,6 @@
           padding-right: 0 !important;
           text-align: center !important;
      }
-
-
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -44,23 +42,21 @@
                width: 100%;
           }
 
-     div.col-sm-4 {
-          width: 33.33333%;
-          text-align: center;
-          &.f  {
-               padding-left: 40px;
-               padding-bottom: 20px;
-          }
-          &.s {
-               // text-align: center;
-               padding-bottom: 20px;
+          div.col-sm-4 {
+               width: 33.33333%;
+               text-align: center;
+               &.f  {
+                    padding-left: 40px;
+                    padding-bottom: 20px;
+               }
+               &.s {
+                    padding-bottom: 20px;
 
-          }
-          &.t {
-               // text-align: right;
-               padding-right: 40px;
-               padding-bottom: 20px;
-               // text-align: right;
+               }
+               &.t {
+                    padding-right: 40px;
+                    padding-bottom: 20px;
+               }
           }
      }
 }
@@ -87,12 +83,9 @@
                     padding-bottom: 20px;
                }
                &.s {
-                    // text-align: center;
                     padding-bottom: 20px;
-
                }
                &.t {
-                    // text-align: right;
                     padding-right: 40px;
                     padding-bottom: 20px;
                }
