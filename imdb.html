@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMDb </title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" >
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css.map"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="lg-container">
+          <div class="jain-container">
+               <div class="jumbotron">
+                    <nav class="navbar navbar-expand-md  navbar-dark ">
+                         <a class="navbar-brand" href="#"><img src="http://www.razmag.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-15-at-09.17.42.png" /></a>
+                         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                         </button>
+
+                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                              <ul class="navbar-nav">
+                                   <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle effect-1" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             Movies
+                                        </a>
+                                   </li>
+                                   <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             Gallery
+                                        </a>
+                                   </li>
+                                   <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             Community
+                                        </a>
+                                   </li>
+
+                                   <li class="nav-item dropdown position-relative">
+                                        <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             News
+                                        </a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </nav>
+                    <div class="container hero">
+                         <div class="row">
+
+                              <div class="col-md-12">
+                                  <h1 class="display-4">The Martian</h1>
+                                  <h5 class="label">adventure</h5>
+                                  <h5 class="label">sci-fi</h5>
+                                  <h5 class="label">thriller</h5>
+                                  <a href="#">
+                                       <div class="btn-wrap">
+                                             <button id="playButton">
+                                                  <span>Watch Trailer</span>
+                                                  <div id="circlewrap">
+                                                       <div class="ion-ios-play"></div>
+                                                  </div>
+
+                                             </button>
+                                        </div>
+                                   </a>
+                              </div>
+
+                         </div>
+                         <div class="row datetext">
+                              <div class="col-md-12">
+                                   <h5 class="releaseDate" id="location">In theaters</h5>
+                                   <h5 class="releaseDate" id="date">15 Oct, 2015 (USA)</h5>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="row hero-2">
+                    </div>
+                </div>
+          </div>
+     </div>
+     <!-- header Ends -->
+
+
+
+
+     <!-- content Begins -->
+     <div class="container allcontent">
+          <div class="container searchbar">
+               <div class="container searchlabels">
+                    <ul>
+                         <li class="activeli">
+                              <div class="ion-videocamera icon"></div>
+                              <a href="#" class="activelink" >in theaters</a>
+                         </li>
+                         <li class="">
+                              <div class="ion-ios-timer icon"></div>
+                              <a href="#">coming soon</a>
+                         </li>
+                         <li class="">
+                              <div class="ion-ios-pie icon"></div>
+                              <a href="#">charts</a>
+                         </li>
+                         <li class="">
+                              <div class="ion-ios-monitor icon"></div>
+                              <a href="#">tv series</a>
+                         </li>
+                         <li class="">
+                              <div class="ion-ios-film icon"></div>
+                              <a href="#">trailers</a>
+                         </li>
+                         <li class="">
+                              <div class="dropdown show">
+                                   <div class="ion-ios-film icon"></div>
+                                   <a class="btn btn-secondary dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+
+
+                              </div>
+                         </li>
+                         <li>
+                              <button type="button" class="btn">
+                                   <div class="ion-android-star icon"></div>
+                                   <span>179</span>
+                              </button>
+                         </li>
+                    </ul>
+               </div>
+               <div class="row rating-search-bar">
+                    <div class="col-12 col-md-8">
+                         <div class='iconwrap'>
+                              <div class="ion-navicon-round icon"></div>
+                              <div class="ion-grid icon"></div>
+                         </div>
+                         <div class="rating-bar-wrapper">
+                              <h5>IMDb Rating</h5>
+                              <div class="rating-bar">
+                                   <div class="circle a"></div>
+                                   <div class="circle b"></div>
+                                   <div id="ratewrap">
+                                        <span id="rate">6.8</span>
+                                        <div id="point"></div>
+                                   </div>
+                                   <div class="filler-bar inner"></div>
+                                   <div class="filler-bar fill"></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                         <form>
+                              <div class="form-group">
+                                   <a href="#" class="ion-ios-search-strong"></a>
+                                   <input type="text" class="form-control"></input>
+                              </div>
+                         </form>
+                    </div>
+               </div>
+          </div>
+          <div class="container content">
+
+               <div class="card" >
+                    <img class="card-img-top" src="https://www.bleedingcool.com/wp-content/uploads/2018/04/avengers-infinity-war-poster-6.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                         <h5 class="card-title">Avengers: Inifinity War</h5>
+                         <h6 class="card-subtitle mb-2 text-muted">Fantasy, Adventure, Action</h6>
+                         <div class="rating">
+                              <div class="ion-ios-heart"></div>
+                              <h5 id="numberRating">9.8</h5>
+                         </div>
+                         <a href="#" class="">
+                              <div id="corner-triangle">
+                                   <span class="triangle-text">+</span>
+
+                              </div>
+                         </a>
+                    </div>
+               </div>
+               <div class="card" >
+                    <img class="card-img-top" src="https://filmwonk.files.wordpress.com/2016/01/mad-max-fury-road-poster2.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                         <h5 class="card-title">Mad Max: Fury Road</h5>
+                         <h6 class="card-subtitle mb-2 text-muted">Horror, Sci-fi, Action</h6>
+                         <div class="rating">
+                              <div class="ion-ios-heart"></div>
+                              <h5 id="numberRating">8.3</h5>
+                         </div>
+                         <a href="#" class="">
+                              <div id="corner-triangle">
+                                   <span class="triangle-text">+</span>
+
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="card" >
+                    <img class="card-img-top" src="https://i.pinimg.com/736x/a8/fc/af/a8fcaf6b1f21a0cc1bd3483f332af28e--hunger-games-mockingjay-the-hunger-games.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                         <h5 class="card-title">The Hunger Games: Mo...</h5>
+                         <h6 class="card-subtitle mb-2 text-muted">Sci-fi, Adventure, Action</h6>
+                         <div class="rating">
+                              <div class="ion-ios-heart"></div>
+                              <h5 id="numberRating">9.2</h5>
+                         </div>
+                         <a href="#" class="">
+                              <div id="corner-triangle">
+                                   <span class="triangle-text">+</span>
+
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="card">
+                    <img class="card-img-top" src="https://static.posters.cz/image/750/plakaty/blade-runner-2049-fire-ice-i50059.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                         <h5 class="card-title">Blade Runner: 2049</h5>
+                         <h6 class="card-subtitle mb-2 text-muted">Sci-fi, Fantasy,Action</h6>
+                         <div class="rating">
+                              <div class="ion-ios-heart"></div>
+                              <h5 id="numberRating">8.8</h5>
+                         </div>
+                         <a href="#" class="">
+                              <div id="corner-triangle">
+                                   <span class="triangle-text">+</span>
+
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="card" >
+                    <img class="card-img-top" src="http://www.impawards.com/2015/posters/insurgent_ver13_xlg.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                         <h5 class="card-title">Insurgent</h5>
+                         <h6 class="card-subtitle mb-2 text-muted">Thriller Sci-fi, Action</h6>
+                         <div class="rating">
+                              <div class="ion-ios-heart"></div>
+                              <h5 id="numberRating">7.5</h5>
+                         </div>
+                         <a href="#" class="">
+                              <div id="corner-triangle">
+                                   <span class="triangle-text">+</span>
+
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="card" >
+                    <img class="card-img-top" src="http://www.reellifewithjane.com/wp-content/uploads/2015/09/Everest-Poster.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                         <h5 class="card-title">Everest</h5>
+                         <h6 class="card-subtitle mb-2 text-muted">Drama, Adventure, Action</h6>
+                         <div class="rating">
+                              <div class="ion-ios-heart"></div>
+                              <h5 id="numberRating">8.0</h5>
+                         </div>
+                         <a href="#" class="">
+                              <div id="corner-triangle">
+                                   <span class="triangle-text">+</span>
+
+                              </div>
+                         </a>
+                    </div>
+               </div>
+          </div>
+          <div class="container bottom">
+               <div class="ion-load-a"></div>
+          </div>
+     </div>
+     <!-- content Ends -->
+
+
+
+
+     <!-- footer Begins -->
+     <div class="jain-container footer">
+          <div class="row top">
+               <div class="col-sm-4 f">
+                    <h5 id="brand">IMDb</h5>
+               </div>
+               <div class="col-sm-4 s">
+                    <div class="icons">
+                         <div class="ion-social-twitter"></div>
+                         <div class="ion-social-facebook"></div>
+                         <div class="ion-social-instagram"></div>
+                    </div>
+               </div>
+               <div class="col-sm-4 t">
+                    <h6 id="copyright">1990-2015 IMDB.COM, INC.</h6>
+               </div>
+          </div>
+          <div class="row bottom">
+               <div class="col-sm">
+                    <div class="borderline"></div>
+                    <h6 class="">show menu</h6>
+               </div>
+          </div>
+     </div>
+
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TimelineMax.min.js"></script> -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./public/js/components/bootstrap-navbar.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
